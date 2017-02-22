@@ -1,0 +1,15 @@
+# [indexer/duplicator] HTM subdivision level.
+htm.level = 8
+
+# director table location
+dirDb = $OUTPUT_DB
+dirTable = Object
+
+# Common partitioning parameters.
+part = {
+    num-stripes     = 340
+    num-sub-stripes = 12
+    chunk           = chunkId
+    sub-chunk       = subChunkId
+    default-overlap = 0.01667
+}

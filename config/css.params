@@ -1,0 +1,8 @@
+[db_info]
+storageClass: L2
+partitioning: 1
+partitioningStrategy: sphBox
+nStripes: 340
+nSubStripes: 12
+overlap: 0.01667
+
