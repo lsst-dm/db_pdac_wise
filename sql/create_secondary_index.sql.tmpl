@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS `qservMeta.$OUTPUT_DB__$OUTPUT_OBJECT_TABLE` (
+  `source_id` bigint(20) NOT NULL,
+  `chunkId` int(11) DEFAULT NULL,
+  `subChunkId` int(11) DEFAULT NULL,
+  PRIMARY KEY (`source_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;

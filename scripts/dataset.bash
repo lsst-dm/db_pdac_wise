@@ -7,8 +7,6 @@
 #       the loading & configuration process completely
 #       independent of any pre-exiating databases.
 
-INPUT_DB="sdss_stripe82_00"
-
 # Output database and tables
 
 OUTPUT_DB="wise_00"
@@ -17,7 +15,7 @@ OUTPUT_SOURCE_TABLE=
 OUTPUT_FORCED_SOURCE_TABLE="ForcedSource"
 OUTPUT_NONPART_TABLES=
 
-# Data to be loaed into new database
+# Data to be loaded into new database
 
 INPUT_DATA_DIR="/datasets/gapon/production/wise_catalog_load/production_load"
 

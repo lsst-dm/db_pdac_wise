@@ -9,8 +9,8 @@ source $SCRIPTS/env_qserv_stack.bash
 
 assert_worker
 
-config_dir=`realpath $SCRIPTS/../config`
-sql_dir=`realpath $SCRIPTS/../sql`
+config_dir=`realpath ${SCRIPTS}/../config`
+sql_dir=`realpath ${SCRIPTS}/../sql`
 
 worker=`/usr/bin/hostname`
 
@@ -19,8 +19,8 @@ verbose "["`date`"] ** Processing configuration templates at worker: ${worker} *
 verbose "------------------------------------------------------------------------------------"
 
 for file in common.cfg; do
-    verbose "${config_dir}/${file}.tmpl -> $LOCAL_TMP_DIR/${file}"
-    translate_template ${config_dir}/${file}.tmpl $LOCAL_TMP_DIR/${file}
+    verbose "${config_dir}/${file}.tmpl -> ${LOCAL_TMP_DIR}/${file}"
+    translate_template ${config_dir}/${file}.tmpl ${LOCAL_TMP_DIR}/${file}
 done
 
 loader=`which qserv-data-loader.py`
@@ -30,9 +30,9 @@ else
     opt_verbose=""
 fi
 opt_conn="--host=${MASTER} --port=5012 --secret=${config_dir}/wmgr.secret --no-css"
-opt_config="--config=${LOCAL_TMP_DIR}/common.cfg --config=${config_dir}/${OUTPUT_OBJECT_TABLE}.cfg"
-opt_db_table_schema="${OUTPUT_DB} ${OUTPUT_OBJECT_TABLE} ${sql_dir}/${OUTPUT_OBJECT_TABLE}.sql"
-worker_data_dir="${INPUT_DATA_DIR}/${OUTPUT_OBJECT_TABLE}/${worker}"
+opt_config="--config=${LOCAL_TMP_DIR}/common.cfg --config=${config_dir}/${OUTPUT_FORCED_SOURCE_TABLE}.cfg"
+opt_db_table_schema="${OUTPUT_DB} ${OUTPUT_FORCED_SOURCE_TABLE} ${sql_dir}/${OUTPUT_FORCED_SOURCE_TABLE}.sql"
+worker_data_dir="${INPUT_DATA_DIR}/${OUTPUT_FORCED_SOURCE_TABLE}/${worker}"
 
 verbose "------------------------------------------------------------------------------------"
 verbose "["`date`"] ** Begin loading at worker: ${worker} **"
@@ -43,7 +43,7 @@ for folder in `ls ${worker_data_dir}`; do
     verbose "["`date`"] ** Loading folder: ${folder} **"
     verbose "------------------------------------------------------------------------------------"
 
-    opt_data="--index-db= --skip-partition --chunks-dir=${worker_data_dir}/${folder}/"
+    opt_data="--skip-partition --chunks-dir=${worker_data_dir}/${folder}/"
     loadercmd="${loader} ${opt_verbose} ${opt_conn} --worker=${worker} ${opt_config} ${opt_data} ${opt_db_table_schema}"
 
     verbose ${loadercmd}
@@ -53,4 +53,3 @@ for folder in `ls ${worker_data_dir}`; do
     verbose "------------------------------------------------------------------------------------"
 done
 verbose "["`date`"] ** Finished loading **"
-

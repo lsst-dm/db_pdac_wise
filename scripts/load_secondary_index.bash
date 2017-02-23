@@ -31,14 +31,15 @@ if [ ! -z "$(test_flag '-r|--get-remote-triplets')" ]; then
 fi
 verbose "total of `ls -1 | grep .tsv | wc -l` index file will be loaded"
 
-# Create the secondary index table similarily to the one which should
-# already exist in the cluster.
+# Create the secondary index table
 
-input_index="qservMeta.${INPUT_DB}__${OUTPUT_OBJECT_TABLE}"
-output_index="qservMeta.${OUTPUT_DB}__${OUTPUT_OBJECT_TABLE}"
+verbose "creating secondary index table"
 
-verbose "creating secondary index table '${output_index}"
-$mysql_cmd -e "CREATE TABLE IF NOT EXISTS ${output_index} LIKE ${input_index}"
+sql_dir=`realpath ${SCRIPTS}/../sql`
+
+translate_template ${sql_dir}/create_secondary_index.sql.tmpl ${LOCAL_TMP_DIR}/create_secondary_index.sql
+
+cat ${LOCAL_TMP_DIR}/create_secondary_index.sql | $mysql_cmd
 
 # Load TSV files harvested from the worker nodes into the table
 

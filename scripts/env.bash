@@ -117,10 +117,12 @@ function translate_template {
     if [ "$file_out" == "-" ]; then
         cat $file_tmpl \
             | sed 's/\$OUTPUT_DB/'${OUTPUT_DB}'/' \
+            | sed 's/\$OUTPUT_OBJECT_TABLE/'${OUTPUT_OBJECT_TABLE}'/' \
             | sed 's/\$SQL_DIR/'$(echo $sql_dir | sed 's/\//\\\//g')'/'
     else
         cat $file_tmpl \
             | sed 's/\$OUTPUT_DB/'${OUTPUT_DB}'/' \
+            | sed 's/\$OUTPUT_OBJECT_TABLE/'${OUTPUT_OBJECT_TABLE}'/' \
             | sed 's/\$SQL_DIR/'$(echo $sql_dir | sed 's/\//\\\//g')'/' \
             > $file_out
     fi

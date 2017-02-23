@@ -26,7 +26,7 @@ verbose "output file:    ${triplet_file}"
 
 rm -f ${triplet_file}
 
-${mysql_cmd} -e "SELECT id,chunkId,subChunkId FROM ${OUTPUT_DB}.${OUTPUT_OBJECT_TABLE}_${chunk} INTO OUTFILE '${triplet_file}'"
+${mysql_cmd} -e "SELECT source_id,chunkId,subChunkId FROM ${OUTPUT_DB}.${OUTPUT_OBJECT_TABLE}_${chunk} INTO OUTFILE '${triplet_file}'"
 
 verbose "total triplets: "`wc -l ${triplet_file} | awk '{print $1}'`
 verbose "------------------------------------------------------------------------------------------------"
