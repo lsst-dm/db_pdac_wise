@@ -5,7 +5,7 @@ set -e
 SCRIPT=`realpath $0`
 SCRIPTS=`dirname $SCRIPT`
 
-max_connections=8192
+max_connections=16384
 
 HELP="
 DESCRIPTION:
