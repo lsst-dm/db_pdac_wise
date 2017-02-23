@@ -33,7 +33,9 @@ verbose "total of `ls -1 | grep .tsv | wc -l` index file will be loaded"
 
 # Create the secondary index table
 
-verbose "creating secondary index table"
+output_index="qservMeta.${OUTPUT_DB}__${OUTPUT_OBJECT_TABLE}"
+
+verbose "creating secondary index table: ${output_index}"
 
 sql_dir=`realpath ${SCRIPTS}/../sql`
 
