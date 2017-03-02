@@ -9,9 +9,9 @@ source $SCRIPTS/env_qserv_stack.bash
 
 assert_worker
 
-folder="$1"
-if [ -z "$folder" ]; then
-    echo `basename ${SCRIPT}`": usage <folder>"
+folders="$1"
+if [ -z "$folders" ]; then
+    echo `basename ${SCRIPT}`": usage <folders>"
     exit 1
 fi
 
@@ -34,16 +34,19 @@ worker_data_dir="${INPUT_DATA_DIR}/${OUTPUT_FORCED_SOURCE_TABLE}/${worker}"
 verbose "------------------------------------------------------------------------------------"
 verbose "["`date`"] ** Begin loading at worker: ${worker} **"
 verbose "------------------------------------------------------------------------------------"
-verbose "["`date`"] ** Loading folder: ${folder} **"
-verbose "------------------------------------------------------------------------------------"
 
-opt_data="--skip-partition --chunks-dir=${worker_data_dir}/${folder}/"
-loadercmd="${loader} ${opt_verbose} ${opt_conn} --worker=${worker} ${opt_config} ${opt_data} ${opt_db_table_schema}"
+for folder in `cat ${LOCAL_TMP_DIR}/forcedsource/${folders}`; do
 
-verbose ${loadercmd}
-if [ -z "$(test_flag '-n|--dry-run')" ]; then
-    ${loadercmd}
-fi
+    verbose "["`date`"] ** Loading folder: ${folder} **"
+    verbose "------------------------------------------------------------------------------------"
 
-verbose "------------------------------------------------------------------------------------"
+    opt_data="--skip-partition --chunks-dir=${worker_data_dir}/${folder}/"
+    loadercmd="${loader} ${opt_verbose} ${opt_conn} --worker=${worker} ${opt_config} ${opt_data} ${opt_db_table_schema}"
+
+    verbose ${loadercmd}
+    if [ -z "$(test_flag '-n|--dry-run')" ]; then
+        ${loadercmd}
+    fi
+    verbose "------------------------------------------------------------------------------------"
+done
 verbose "["`date`"] ** Finished loading **"
