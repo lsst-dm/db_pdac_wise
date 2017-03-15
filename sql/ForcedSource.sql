@@ -2,7 +2,7 @@ CREATE TABLE `ForcedSource` (
 
     `source_id_mf`  VARCHAR(28)         NOT NULL,  -- foreign key to the primary key of the Object table
     `ra`            DECIMAL(10,7)   DEFAULT NULL,
-    `dec`           DECIMAL(9,7)    DEFAULT NULL,
+    `decl`          DECIMAL(9,7)    DEFAULT NULL,
     `w1x_ep`        DECIMAL(7,3)    DEFAULT NULL,
     `w1y_ep`        DECIMAL(7,3)    DEFAULT NULL,
     `w1mpro_ep`     DECIMAL(5,3)    DEFAULT NULL,

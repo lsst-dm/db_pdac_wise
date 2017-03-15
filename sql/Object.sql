@@ -2,7 +2,7 @@ CREATE TABLE `Object` (
 
     `designation`    CHAR(20)            NOT NULL,
     `ra`             DECIMAL(10,7)   DEFAULT NULL,
-    `dec`            DECIMAL(9,7)    DEFAULT NULL,
+    `decl`           DECIMAL(9,7)    DEFAULT NULL,
     `sigra`          DECIMAL(7,4)    DEFAULT NULL,
     `sigdec`         DECIMAL(7,4)    DEFAULT NULL,
     `sigradec`       DECIMAL(8,4)    DEFAULT NULL,
