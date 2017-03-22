@@ -33,7 +33,7 @@ source $SCRIPTS/env_base_stack.bash
 
 assert_master_or_worker
 
-for class in Object ForcedSource; do
+for class in $OUTPUT_OBJECT_TABLE $OUTPUT_FORCED_SOURCE_TABLE; do
 
     for table in `echo "SELECT TABLE_NAME FROM information_schema.tables WHERE TABLE_NAME LIKE '${class}%' AND TABLE_SCHEMA='${OUTPUT_DB}'" | $mysql_cmd`; do
 

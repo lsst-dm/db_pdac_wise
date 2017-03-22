@@ -9,10 +9,10 @@
 
 # Output database and tables
 
-OUTPUT_DB="wise_ext_00"
-OUTPUT_OBJECT_TABLE="Reject"
+OUTPUT_DB="wise_00"
+OUTPUT_OBJECT_TABLE="Object"
 OUTPUT_SOURCE_TABLE=
-OUTPUT_FORCED_SOURCE_TABLE=
+OUTPUT_FORCED_SOURCE_TABLE="ForcedSource"
 OUTPUT_NONPART_TABLES=
 
 # Data to be loaded into new database
