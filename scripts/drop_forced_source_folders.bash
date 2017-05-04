@@ -32,7 +32,7 @@ for folder in `cat ${LOCAL_TMP_DIR}/forcedsource/${folders}`; do
 
         chunk=$(echo ${f%.txt} | awk -F_ '{print $2}')
 
-        for table in ${OUTPUT_DB}.ForcedSource_${chunk} ${OUTPUT_DB}.ForcedSourceFullOverlap_${chunk}; do
+        for table in ${OUTPUT_DB}.${OUTPUT_FORCED_SOURCE_TABLE}_${chunk} ${OUTPUT_DB}.${OUTPUT_FORCED_SOURCE_TABLE}FullOverlap_${chunk}; do
             verbose $mysql_cmd -e "DROP TABLE IF EXISTS ${table}"
             if [ -z "$(test_flag '-n|--dry-run')" ]; then
                 $mysql_cmd -e "DROP TABLE IF EXISTS ${table}"

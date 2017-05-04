@@ -11,9 +11,9 @@ HELP="
 DESCRIPTION:
 
   Set the number of allowed database connections to ${max_connections} on
-  a node of a Qserv cluster as configured in:
+  a node of a Qserv cluster as configured in the dataset configuration file:
 
-    `realpath $SCRIPTS/../config/env.bash`
+    `realpath $SCRIPTS/dataset.bash`
 
   The script must be run on the MASTER or WORKER node of the cluster.
 

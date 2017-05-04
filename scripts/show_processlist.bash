@@ -9,9 +9,9 @@ HELP="
 DESCRIPTION:
 
   Report database connections (MySQL operation 'SHOW PROCESSLIST') on
-  the current node of the Qserv cluster:
+  the current node of the Qserv cluster as per the dataset configuration:
 
-    `realpath $SCRIPTS/../config/env.bash`
+    `realpath $SCRIPTS/dataset.bash`
 
   The script must be run on MASTER or WORKER nodes of the cluster.
 

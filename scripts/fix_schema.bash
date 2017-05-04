@@ -5,13 +5,13 @@ set -e
 SCRIPT=`realpath $0`
 SCRIPTS=`dirname $SCRIPT`
 
+source $SCRIPTS/dataset.bash
+
 HELP="
 DESCRIPTION:
 
   Fix schemas of all partitioned tables in the local database
-  by renaming column 'dec' into 'decl'.
-
-    `realpath $SCRIPTS/../config/env.bash`
+  '{$OUTPUT_DB}' by renaming column 'dec' into 'decl'.
 
   This operation should be performed on MASTER or WORKER nodes of
   the Qserv cluster. Please, do not run this script directly! It's

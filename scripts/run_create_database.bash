@@ -5,13 +5,15 @@ set -e
 SCRIPT=`realpath $0`
 SCRIPTS=`dirname $SCRIPT`
 
+source $SCRIPTS/dataset.bash
+
 HELP="
 DESCRIPTION:
 
   This is the top-level driver script meant to create (or re-create) a new
-  database configured in the environment configuration file:
+  database '${OUTPUT_DB}' configured in the dataset configuration file:
 
-    `realpath $SCRIPTS/../config/env.bash`
+    `realpath $SCRIPTS/dataset.bash`
 
   The database will be created on all nodes (including MASTER and WORKERS)
   of a Qserv cluster. The script must be run from the MASTER node of

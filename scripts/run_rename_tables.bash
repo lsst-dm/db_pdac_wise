@@ -5,13 +5,14 @@ set -e
 SCRIPT=`realpath $0`
 SCRIPTS=`dirname $SCRIPT`
 
-$SCRIPTS/dataset.bash
+source $SCRIPTS/dataset.bash
 
 HELP="
 DESCRIPTION:
 
-  Fix schemas of all partitioned tables in the local database
-  '${OUTPUT_DB}' by renaming column 'dec' into 'decl'.
+  Rename all partitioned tables in the local database
+  '${OUPUT_DB}' back to their original names: '${OUTPUT_OBJECT_TABLE}' (currently '${INPUT_OBJECT_TABLE}')
+  and '${OUTPUT_FORCED_SOURCE_TABLE}' (curently '${INPUT_FORCED_SOURCE_TABLE}').
 
   This operation should be performed on MASTER or WORKER nodes of
   the Qserv cluster. Please, do not run this script directly! It's
@@ -34,6 +35,6 @@ source $SCRIPTS/env.bash
 assert_master
 
 for node in $SSH_MASTER $SSH_WORKERS; do
-    verbose $node : fixing table schemas of database $OUTPUT_DB
-    ssh -n $node "$SCRIPTS/fix_schema.bash '$@'" >& $LOCAL_LOG_DIR/${node}_fix_schema.log &
+    verbose $node : renaming tables of database $OUTPUT_DB
+    ssh -n $node "$SCRIPTS/rename_tables.bash '$@'" >& $LOCAL_LOG_DIR/${node}_rename_tables.log &
 done

@@ -8,13 +8,15 @@ set -e
 SCRIPT=`realpath $0`
 SCRIPTS=`dirname $SCRIPT`
 
+source $SCRIPTS/dataset.bash
+
 HELP="
 DESCRIPTION:
 
-  Create (or re-create) a new database configured in the environment
+  Create (or re-create) a new database '${OUTPUT_DB}' configured in the dataset
   configuration file:
 
-    `realpath $SCRIPTS/../config/env.bash`
+    `realpath $SCRIPTS/dataset.bash`
 
   This operation should be performed on MASTER or WORKER nodes of
   the Qserv cluster. Please, do not run this script directly! It's

@@ -9,10 +9,10 @@ HELP="
 DESCRIPTION:
 
   This is the top-level driver script which will increase the number of
-  allowed database connections on all nodes (including MASTER and WORKERS)
-  of a Qserv cluster as configured in:
+  allowed database server connections on all nodes (including MASTER and WORKERS)
+  of a Qserv cluster as configured in the dataset specificaton file:
 
-    `realpath $SCRIPTS/../config/env.bash`
+    `realpath $SCRIPTS/dataset.bash`
 
   The script must be run from the MASTER node of the cluster.
 
