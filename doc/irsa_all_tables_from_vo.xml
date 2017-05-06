@@ -1,0 +1,4819 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VOTABLE version="1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.ivoa.net/xml/VOTable/v1.3" xmlns:stc="http://www.ivoa.net/xml/STC/v1.30">
+  <RESOURCE type="results">
+    <INFO name="QUERY_STATUS" value="OK"/>
+    <TABLE>
+      <DESCRIPTION>                                                                              
+
+schema_name 
+___ schema name
+table_name 
+___ table name
+table_type 
+___ table type
+description 
+___ table description
+utype 
+___ utype
+irsa_dbms 
+___ DBMS for the table
+irsa_pos 
+___ positional table
+cntr 
+___ entry counter (key) number (unique within table)
+</DESCRIPTION>
+      <FIELD name="schema_name" datatype="char" arraysize="*"/>
+      <FIELD name="table_name" datatype="char" arraysize="*"/>
+      <FIELD name="table_type" datatype="char" arraysize="*"/>
+      <FIELD name="description" datatype="char" arraysize="*"/>
+      <FIELD name="utype" datatype="char" arraysize="*"/>
+      <FIELD name="irsa_dbms" datatype="char" arraysize="*"/>
+      <FIELD name="irsa_pos" datatype="char" arraysize="*"/>
+      <FIELD name="cntr" datatype="long"/>
+      <DATA>
+        <TABLEDATA>
+          <TR>
+            <TD>public</TD>
+            <TD>glimpse360a</TD>
+            <TD>table</TD>
+            <TD>GLIMPSE360 Archive (&lt;a href=&apos;/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html&apos; target=&apos;doc&apos;&gt;more complete, less reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>153</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>glimpse360c</TD>
+            <TD>table</TD>
+            <TD>GLIMPSE360 Catalog (&lt;a href=&apos;/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html&apos; target=&apos;doc&apos;&gt;highly reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>154</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>glimpse3d_v1cat_tbl</TD>
+            <TD>table</TD>
+            <TD>GLIMPSE 3D, 2007-2009 Catalog (&lt;a href=&apos;/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html&apos; target=&apos;doc&apos;&gt;highly reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>155</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>glimpse3d_v2arc</TD>
+            <TD>table</TD>
+            <TD>GLIMPSE 3D, 2007-2009 Archive (&lt;a href=&apos;/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html&apos; target=&apos;doc&apos;&gt;more complete, less reliable&lt;/a&gt;),(&lt;a href=&apos;/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE3D_Archive_Erratum.html&apos;&gt;Erratum&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>156</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>glimpse3dep1a</TD>
+            <TD>table</TD>
+            <TD>GLIMPSE 3D Epoch 1 Archive (&lt;a href=&apos;/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html&apos; target=&apos;doc&apos;&gt;more complete, less reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>157</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>glimpse3dep1c</TD>
+            <TD>table</TD>
+            <TD>GLIMPSE 3D Epoch 1 Catalog (&lt;a href=&apos;/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html&apos; target=&apos;doc&apos;&gt;highly reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>158</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>glimpse3dep2a</TD>
+            <TD>table</TD>
+            <TD>GLIMPSE 3D Epoch 2 Archive (&lt;a href=&apos;/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html&apos; target=&apos;doc&apos;&gt;more complete, less reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>159</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>glimpse3dep2mra</TD>
+            <TD>table</TD>
+            <TD>GLIMPSE 3D Epoch 2 More Reliable Archive (&lt;a href=&apos;/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html&apos; target=&apos;doc&apos;&gt;more complete, less reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>160</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>glimpse_s07</TD>
+            <TD>table</TD>
+            <TD>GLIMPSE I Spring &apos;07 Catalog (&lt;a href=&apos;/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html&apos; target=&apos;doc&apos;&gt;highly reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>161</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>glimpse_s07_ar</TD>
+            <TD>table</TD>
+            <TD>GLIMPSE I Spring &apos;07 Archive (&lt;a href=&apos;/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html&apos; target=&apos;doc&apos;&gt;more complete, less reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>162</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>glimpsecygxa</TD>
+            <TD>table</TD>
+            <TD>GLIMPSE Cygnus-X Archive (&lt;a href=&apos;/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html&apos; target=&apos;doc&apos;&gt;more complete, less reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>163</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>glimpsecygxc</TD>
+            <TD>table</TD>
+            <TD>GLIMPSE Cygnus-X Catalog (&lt;a href=&apos;/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html&apos; target=&apos;doc&apos;&gt;highly reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>164</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>glimpsesmoga</TD>
+            <TD>table</TD>
+            <TD>SMOG Archive (&lt;a href=&apos;/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html&apos; target=&apos;doc&apos;&gt;more complete, less reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>165</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>glimpsesmogc</TD>
+            <TD>table</TD>
+            <TD>SMOG Catalog (&lt;a href=&apos;/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html&apos; target=&apos;doc&apos;&gt;highly reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>166</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>heritagel100</TD>
+            <TD>table</TD>
+            <TD>HERITAGE LMC PACS 100 micron Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>167</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>heritagel160</TD>
+            <TD>table</TD>
+            <TD>HERITAGE LMC PACS 160 micron Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>168</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>heritagel250</TD>
+            <TD>table</TD>
+            <TD>HERITAGE LMC SPIRE 250 micron Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>169</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>heritagel350</TD>
+            <TD>table</TD>
+            <TD>HERITAGE LMC SPIRE 350 micron Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>170</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>heritagel500</TD>
+            <TD>table</TD>
+            <TD>HERITAGE LMC SPIRE 500 micron Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>171</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>heritagelclass</TD>
+            <TD>table</TD>
+            <TD>HERITAGE LMC Band-Matched Classification Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>172</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>heritagelphot</TD>
+            <TD>table</TD>
+            <TD>HERITAGE LMC Band-Matched Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>173</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>heritages100</TD>
+            <TD>table</TD>
+            <TD>HERITAGE SMC PACS 100 micron Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>174</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>heritages160</TD>
+            <TD>table</TD>
+            <TD>HERITAGE SMC PACS 160 micron Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>175</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>heritages250</TD>
+            <TD>table</TD>
+            <TD>HERITAGE SMC SPIRE 250 micron Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>176</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>heritages350</TD>
+            <TD>table</TD>
+            <TD>HERITAGE SMC SPIRE 350 micron Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>177</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>heritages500</TD>
+            <TD>table</TD>
+            <TD>HERITAGE SMC SPIRE 500 micron Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>178</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>heritagesclass</TD>
+            <TD>table</TD>
+            <TD>HERITAGE SMC Band-Matched Classification Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>179</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>heritagesphot</TD>
+            <TD>table</TD>
+            <TD>HERITAGE SMC Band-Matched Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>180</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>hermesscat250</TD>
+            <TD>table</TD>
+            <TD>HerMES 250 micron StarFinder Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>181</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>hermesscat250sxt</TD>
+            <TD>table</TD>
+            <TD>HerMES 250 micron SUSSEXtractor Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>182</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>hermesscat350</TD>
+            <TD>table</TD>
+            <TD>HerMES 350 micron StarFinder Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>183</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>hermesscat350sxt</TD>
+            <TD>table</TD>
+            <TD>HerMES 350 micron SUSSEXtractor Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>184</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>hermesscat500</TD>
+            <TD>table</TD>
+            <TD>HerMES 500 micron StarFinder Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>185</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>hermesscat500sxt</TD>
+            <TD>table</TD>
+            <TD>HerMES 500 micron SUSSEXtractor Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>186</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>hermesxid24</TD>
+            <TD>table</TD>
+            <TD>HerMES Band-merged Catalog (24 micron positions)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>187</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>hermesxid250</TD>
+            <TD>table</TD>
+            <TD>HerMES Band-merged Catalog (250 micron positions)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>188</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>hgoodsn</TD>
+            <TD>table</TD>
+            <TD>GOODS North Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>189</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>hgoodss</TD>
+            <TD>table</TD>
+            <TD>GOODS South Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>190</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>hopsdata</TD>
+            <TD>table</TD>
+            <TD>Herschel Orion Protostars Survey SED Data Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>191</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>hopsfits</TD>
+            <TD>table</TD>
+            <TD>Herschel Orion Protostars Survey SED Fits Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>192</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>hpdpsso</TD>
+            <TD>table</TD>
+            <TD>HPDP SSO Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>193</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>lga_v2</TD>
+            <TD>table</TD>
+            <TD>The 2MASS Large Galaxy Atlas</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>194</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>pep100</TD>
+            <TD>table</TD>
+            <TD>PEP PACS 100 micron Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>195</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>pep160</TD>
+            <TD>table</TD>
+            <TD>PEP PACS 160 micron Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>196</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>pep250</TD>
+            <TD>table</TD>
+            <TD>PEP SPIRE 250 micron Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>197</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>pep350</TD>
+            <TD>table</TD>
+            <TD>PEP SPIRE 350 micron Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>198</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>pep500</TD>
+            <TD>table</TD>
+            <TD>PEP SPIRE 500 micron Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>199</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>pepgoodss70</TD>
+            <TD>table</TD>
+            <TD>PEP PACS 70 micron GOODS-S Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>200</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>peplh24</TD>
+            <TD>table</TD>
+            <TD>PEP Lockman Hole MIPS 24 micron Comparison Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>201</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>pepprior</TD>
+            <TD>table</TD>
+            <TD>PEP PACS Extractions Using MIPS 24 micron Priors</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>202</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>pepxid</TD>
+            <TD>table</TD>
+            <TD>PEP PACS and MIPS Cross-IDs Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>203</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>sass_v3</TD>
+            <TD>table</TD>
+            <TD>SASS October 2011 Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>204</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>sdwfs_ch1_epoch1</TD>
+            <TD>table</TD>
+            <TD>SDWFS Aug &apos;09 DR1.1 IRAC 3.6um-Selected 3x30sec Coadd, epoch 1 (Jan &apos;04)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>205</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>sdwfs_ch1_epoch2</TD>
+            <TD>table</TD>
+            <TD>SDWFS Aug &apos;09 DR1.1 IRAC 3.6um-Selected 3x30sec Coadd, epoch 2 (Aug &apos;07)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>206</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>sdwfs_ch1_epoch3</TD>
+            <TD>table</TD>
+            <TD>SDWFS Aug &apos;09 DR1.1 IRAC 3.6um-Selected 3x30sec Coadd, epoch 3 (Feb &apos;08)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>207</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>sdwfs_ch1_epoch4</TD>
+            <TD>table</TD>
+            <TD>SDWFS Aug &apos;09 DR1.1 IRAC 3.6um-Selected 3x30sec Coadd, epoch 4 (Mar &apos;08)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>208</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>sdwfs_ch1_stack</TD>
+            <TD>table</TD>
+            <TD>SDWFS Aug&apos;09 DR1.1 IRAC 3.6um-Selected Total Coadd Stack</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>209</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>sdwfs_ch2_epoch1</TD>
+            <TD>table</TD>
+            <TD>SDWFS Aug &apos;09 DR1.1 IRAC 4.5um-Selected 3x30sec Coadd, epoch 1 (Jan &apos;04)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>210</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>sdwfs_ch2_epoch2</TD>
+            <TD>table</TD>
+            <TD>SDWFS Aug &apos;09 DR1.1 IRAC 4.5um-Selected 3x30sec Coadd, epoch 2 (Aug &apos;07)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>211</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>sdwfs_ch2_epoch3</TD>
+            <TD>table</TD>
+            <TD>SDWFS Aug &apos;09 DR1.1 IRAC 4.5um-Selected 3x30sec Coadd, epoch 3 (Feb &apos;08)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>212</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>sdwfs_ch2_epoch4</TD>
+            <TD>table</TD>
+            <TD>SDWFS Aug &apos;09 DR1.1 IRAC 4.5um-Selected 3x30sec Coadd, epoch 4 (Mar &apos;08)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>213</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>sdwfs_ch2_stack</TD>
+            <TD>table</TD>
+            <TD>SDWFS Aug &apos;09 DR1.1 IRAC 4.5um-Selected Total Coadd Stack</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>214</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>sdwfs_ch3_epoch1</TD>
+            <TD>table</TD>
+            <TD>SDWFS Aug &apos;09 DR1.1 IRAC 5.8um-Selected 3x30sec Coadd, epoch 1 (Jan &apos;04)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>215</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>sdwfs_ch3_epoch2</TD>
+            <TD>table</TD>
+            <TD>SDWFS Aug &apos;09 DR1.1 IRAC 5.8um-Selected 3x30sec Coadd, epoch 2 (Aug &apos;07)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>216</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>sdwfs_ch3_epoch3</TD>
+            <TD>table</TD>
+            <TD>SDWFS Aug &apos;09 DR1.1 IRAC 5.8um-Selected 3x30sec Coadd, epoch 3 (Feb &apos;08)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>217</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>sdwfs_ch3_epoch4</TD>
+            <TD>table</TD>
+            <TD>SDWFS Aug &apos;09 DR1.1 IRAC 5.8um-Selected 3x30sec Coadd, epoch 4 (Mar &apos;08)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>218</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>sdwfs_ch3_stack</TD>
+            <TD>table</TD>
+            <TD>SDWFS Aug &apos;09 DR1.1 IRAC 5.8um-Selected Total Coadd Stack</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>219</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>sdwfs_ch4_epoch1</TD>
+            <TD>table</TD>
+            <TD>SDWFS Aug &apos;09 DR1.1 IRAC 8.0um-Selected 3x30sec Coadd, epoch 1 (Jan &apos;04)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>220</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>sdwfs_ch4_epoch2</TD>
+            <TD>table</TD>
+            <TD>SDWFS Aug &apos;09 DR1.1 IRAC 8.0um-Selected 3x30sec Coadd, epoch 2 (Aug &apos;07)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>221</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>sdwfs_ch4_epoch3</TD>
+            <TD>table</TD>
+            <TD>SDWFS Aug &apos;09 DR1.1 IRAC 8.0um-Selected 3x30sec Coadd, epoch 3 (Feb &apos;08)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>222</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>sdwfs_ch4_epoch4</TD>
+            <TD>table</TD>
+            <TD>SDWFS Aug &apos;09 DR1.1 IRAC 8.0um-Selected 3x30sec Coadd, epoch 4 (Mar &apos;08)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>223</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>sdwfs_ch4_stack</TD>
+            <TD>table</TD>
+            <TD>SDWFS Aug &apos;09 DR1.1 IRAC 8.0um-Selected Total Coadd Stack</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>224</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>simple</TD>
+            <TD>table</TD>
+            <TD>SIMPLE Photometry Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>225</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>spsc250</TD>
+            <TD>table</TD>
+            <TD>SPIRE Point Source Catalog: 250 microns</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>226</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>spsc350</TD>
+            <TD>table</TD>
+            <TD>SPIRE Point Source Catalog: 350 microns</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>227</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>spsc500</TD>
+            <TD>table</TD>
+            <TD>SPIRE Point Source Catalog: 500 microns</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>228</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>spscxid</TD>
+            <TD>table</TD>
+            <TD>SPIRE Point Source Catalog Cross-Reference Matrix</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>229</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>swire_lhisod</TD>
+            <TD>table</TD>
+            <TD>SWIRE Lockman Hole ISOCAM Deep Field Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>230</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>swire_lhisos</TD>
+            <TD>table</TD>
+            <TD>SWIRE Lockman Hole ISOCAM Shallow Field Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>231</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>xfls_i1m</TD>
+            <TD>table</TD>
+            <TD>Extragalactic FLS IRAC Channel 1 Main Field Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>232</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>xfls_i1v</TD>
+            <TD>table</TD>
+            <TD>Extragalactic FLS IRAC Channel 1 Verification Field Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>233</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>xfls_i2m</TD>
+            <TD>table</TD>
+            <TD>Extragalactic FLS IRAC Channel 2 Main Field Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>234</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>xfls_i2v</TD>
+            <TD>table</TD>
+            <TD>Extragalactic FLS IRAC Channel 2 Verification Field Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>235</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>xfls_i3m</TD>
+            <TD>table</TD>
+            <TD>Extragalactic FLS IRAC Channel 3 Main Field Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>236</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>xfls_i3v</TD>
+            <TD>table</TD>
+            <TD>Extragalactic FLS IRAC Channel 3 Verification Field Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>237</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>xfls_i4m</TD>
+            <TD>table</TD>
+            <TD>Extragalactic FLS IRAC Channel 4 Main Field Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>238</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>xfls_i4v</TD>
+            <TD>table</TD>
+            <TD>Extragalactic FLS IRAC Channel 4 Verification Field Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>239</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>xfls_iallm</TD>
+            <TD>table</TD>
+            <TD>Extragalactic FLS IRAC Bandmerged Main Field Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>240</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>xfls_iallv</TD>
+            <TD>table</TD>
+            <TD>Extragalactic FLS IRAC Bandmerged Verification Field Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>241</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>xfls_kpno</TD>
+            <TD>table</TD>
+            <TD>Extragalactic FLS KPNO R-band Source List</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>242</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>xfls_m1t2</TD>
+            <TD>table</TD>
+            <TD>Extragalactic FLS MIPS 24 micron Extended Source Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>243</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>xfls_m1t4</TD>
+            <TD>table</TD>
+            <TD>Extragalactic FLS MIPS 24 micron Calibration Star Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>244</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>xfls_m1t5</TD>
+            <TD>table</TD>
+            <TD>Extragalactic FLS MIPS 24 micron Point Source Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>245</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>xfls_m2</TD>
+            <TD>table</TD>
+            <TD>Extragalactic FLS MIPS 70 micron Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>246</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>xfls_m3</TD>
+            <TD>table</TD>
+            <TD>Extragalactic FLS MIPS 160 micron Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>247</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>xfls_w2</TD>
+            <TD>table</TD>
+            <TD>Extragalactic FLS WIYN/Hydra Spectroscopic Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>248</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>xfls_w3</TD>
+            <TD>table</TD>
+            <TD>Extragalactic FLS WIYN/Hydra Line Strength and Equivalent Width Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>249</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>xfls_w4</TD>
+            <TD>table</TD>
+            <TD>Extragalactic FLS WIYN/Hydra Line Ratios and Extinction Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>250</TD>
+          </TR>
+          <TR>
+            <TD>scal</TD>
+            <TD>coadd_dat_sc</TD>
+            <TD>table</TD>
+            <TD>2MASS LMC/SMC Calibration Atlas Image Info</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>251</TD>
+          </TR>
+          <TR>
+            <TD>scal</TD>
+            <TD>ext_src_sc</TD>
+            <TD>table</TD>
+            <TD>2MASS LMC/SMC Calibration Extended Source Working Database</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>252</TD>
+          </TR>
+          <TR>
+            <TD>scal</TD>
+            <TD>pscan_dat_sc</TD>
+            <TD>table</TD>
+            <TD>2MASS LMC/SMC Calibration Scan Info</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>253</TD>
+          </TR>
+          <TR>
+            <TD>scal</TD>
+            <TD>pt_src_sc</TD>
+            <TD>table</TD>
+            <TD>2MASS LMC/SMC Calibration Point Source Working Database</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>254</TD>
+          </TR>
+          <TR>
+            <TD>seip</TD>
+            <TD>slicovv2</TD>
+            <TD>table</TD>
+            <TD>SEIP IRAC Coverage Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>255</TD>
+          </TR>
+          <TR>
+            <TD>seip</TD>
+            <TD>slmcovv2</TD>
+            <TD>table</TD>
+            <TD>SEIP MIPS Coverage Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>256</TD>
+          </TR>
+          <TR>
+            <TD>seip</TD>
+            <TD>slphotdr4</TD>
+            <TD>table</TD>
+            <TD>SEIP Source List</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>257</TD>
+          </TR>
+          <TR>
+            <TD>seip</TD>
+            <TD>sltracev2</TD>
+            <TD>table</TD>
+            <TD>SEIP Traceback Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>258</TD>
+          </TR>
+          <TR>
+            <TD>sixx2</TD>
+            <TD>coadd_dat_6x2</TD>
+            <TD>table</TD>
+            <TD>2MASS 6X w/LMC/SMC Atlas Image Info</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>259</TD>
+          </TR>
+          <TR>
+            <TD>sixx2</TD>
+            <TD>ext_src_6x2</TD>
+            <TD>table</TD>
+            <TD>2MASS 6X w/LMC/SMC Extended Source Working Database / Catalog (&lt;a href=&apos;/applications/Gator/GatorAid/2MASS/6xcat.README.html&apos; target=&apos;doc&apos;&gt; Read Me! &lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>260</TD>
+          </TR>
+          <TR>
+            <TD>sixx2</TD>
+            <TD>pscan_dat_6x2</TD>
+            <TD>table</TD>
+            <TD>2MASS 6X w/LMC/SMC Scan Info</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>261</TD>
+          </TR>
+          <TR>
+            <TD>sixx2</TD>
+            <TD>pt_src_6x2</TD>
+            <TD>table</TD>
+            <TD>2MASS 6X w/LMC/SMC Point Source Working Database / Catalog (&lt;a href=&apos;/applications/Gator/GatorAid/2MASS/6xcat.README.html&apos; target=&apos;doc&apos;&gt; Read Me! &lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>262</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>a1763t2</TD>
+            <TD>table</TD>
+            <TD>Abell 1763 Source Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>263</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>a1763t3</TD>
+            <TD>table</TD>
+            <TD>Abell 1763 MIPS 70 micron Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>264</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>clash36_v2</TD>
+            <TD>table</TD>
+            <TD>CLASH 3.6 micron Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>265</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>clash45_v2</TD>
+            <TD>table</TD>
+            <TD>CLASH 4.5 micron Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>266</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>clash58_v2</TD>
+            <TD>table</TD>
+            <TD>CLASH 5.8 micron Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>267</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>clash80_v2</TD>
+            <TD>table</TD>
+            <TD>CLASH 8.0 micron Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>268</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>csi2264t1</TD>
+            <TD>table</TD>
+            <TD>CSI 2264 Object Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>269</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>csi2264t2</TD>
+            <TD>table</TD>
+            <TD>CSI 2264 CoRoT Light Curves</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>270</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>csi2264t3</TD>
+            <TD>table</TD>
+            <TD>CSI 2264 Spitzer Light Curves</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>271</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>goods_mips24</TD>
+            <TD>table</TD>
+            <TD>GOODS-S MIPS 24 micron Photometry Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>272</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>goodsn_mips24</TD>
+            <TD>table</TD>
+            <TD>GOODS-N MIPS 24 micron Photometry Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>273</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>goodsnirs16</TD>
+            <TD>table</TD>
+            <TD>GOODS-N IRS 16 micron Photometry Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>274</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>goodssirs16</TD>
+            <TD>table</TD>
+            <TD>GOODS-S IRS 16 micron Photometry Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>275</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>irs_enhv211</TD>
+            <TD>table</TD>
+            <TD>IRS Enhanced Products</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>276</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>m31irac</TD>
+            <TD>table</TD>
+            <TD>M31 IRAC Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>277</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>mipsgala</TD>
+            <TD>table</TD>
+            <TD>MIPSGAL Archive</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>278</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>mipsgalc</TD>
+            <TD>table</TD>
+            <TD>MIPSGAL Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>279</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>mipslg</TD>
+            <TD>table</TD>
+            <TD>MIPS Local Galaxies Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>280</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>s4gcat</TD>
+            <TD>table</TD>
+            <TD>Spitzer Survey of Stellar Structure in Galaxies (S4G)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>281</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>safires160</TD>
+            <TD>table</TD>
+            <TD>Spitzer Archival Far-Infrared Extragalactic Survey (SAFIRES) MIPS 160 micron Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>282</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>safires70</TD>
+            <TD>table</TD>
+            <TD>Spitzer Archival Far-Infrared Extragalactic Survey (SAFIRES) MIPS 70 micron Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>283</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sage_ar_irac</TD>
+            <TD>table</TD>
+            <TD>SAGE IRAC Single Frame + Mosaic Photometry Archive (&lt;a href=&apos;/data/SPITZER/SAGE/doc/SAGEIRACv3_descriptions.html#reliable&apos; target=&apos;doc&apos;&gt;more complete, less reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>284</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sage_ar_irac_e1e2</TD>
+            <TD>table</TD>
+            <TD>SAGE IRAC Epoch 1 and Epoch 2 Archive (&lt;a href=&apos;/data/SPITZER/SAGE/doc/SAGEIRACv3_descriptions.html#reliable&apos; target=&apos;doc&apos;&gt;more complete, less reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>285</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sage_ar_irac_match</TD>
+            <TD>table</TD>
+            <TD>SAGE IRAC Matched Epoch Catalog (&lt;a href=&apos;/data/SPITZER/SAGE/doc/SAGEIRACv3_descriptions.html#reliable&apos; target=&apos;doc&apos;&gt;more complete, less reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>286</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sage_ar_irac_off</TD>
+            <TD>table</TD>
+            <TD>SAGE IRAC Offset Position Epoch 1 and Epoch 2 Archive (&lt;a href=&apos;/data/SPITZER/SAGE/doc/SAGEIRACv3_descriptions.html#reliable&apos; target=&apos;doc&apos;&gt;more complete, less reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>287</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sage_cat_irac</TD>
+            <TD>table</TD>
+            <TD>SAGE IRAC Single Frame + Mosaic Photometry Catalog (&lt;a href=&apos;/data/SPITZER/SAGE/doc/SAGEIRACv3_descriptions.html#reliable&apos; target=&apos;doc&apos;&gt;more reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>288</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sage_cat_irac_e1e2</TD>
+            <TD>table</TD>
+            <TD>SAGE IRAC Epoch 1 and Epoch 2 Catalog (&lt;a href=&apos;/data/SPITZER/SAGE/doc/SAGEIRACv3_descriptions.html#reliable&apos; target=&apos;doc&apos;&gt;more reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>289</TD>
+          </TR>
+          <TR>
+            <TD>wax</TD>
+            <TD>wsdb_link</TD>
+            <TD>table</TD>
+            <TD>2MASS Survey Merged Point Source Link Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>421</TD>
+          </TR>
+          <TR>
+            <TD>wise_allsky</TD>
+            <TD>allsky_2band_p1ba_mch</TD>
+            <TD>table</TD>
+            <TD>WISE Post-Cryo Single Exposure (L1b) Known SSO Possible Association List (&lt;a href=&apos;http://wise2.ipac.caltech.edu/proj/roc/expsup/prelim/ssopal.README.html&apos; target=&apos;doc&apos;&gt; Caution &lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>422</TD>
+          </TR>
+          <TR>
+            <TD>wise_allsky</TD>
+            <TD>allsky_2band_p1bl_lod</TD>
+            <TD>table</TD>
+            <TD>WISE Post-Cryo Single Exposure (L1b) Scan Inventory Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>423</TD>
+          </TR>
+          <TR>
+            <TD>wise_allsky</TD>
+            <TD>allsky_2band_p1bm_frm</TD>
+            <TD>table</TD>
+            <TD>WISE Post-Cryo Single Exposure (L1b) Image Inventory Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>424</TD>
+          </TR>
+          <TR>
+            <TD>wise_allsky</TD>
+            <TD>allsky_2band_p1bs_frm</TD>
+            <TD>table</TD>
+            <TD>WISE Post-Cryo Single Exposure (L1b) Frame Metadata Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>425</TD>
+          </TR>
+          <TR>
+            <TD>wise_allsky</TD>
+            <TD>allsky_2band_p1bs_psd</TD>
+            <TD>table</TD>
+            <TD>WISE Post-Cryo Single Exposure (L1b) Source Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>426</TD>
+          </TR>
+          <TR>
+            <TD>wise_allsky</TD>
+            <TD>allsky_3band_p1ba_mch</TD>
+            <TD>table</TD>
+            <TD>WISE 3-Band Cryo Known Solar System Object Possible Association List (&lt;a href=&apos;http://wise2.ipac.caltech.edu/docs/release/allsky/expsup/ssopal.README.html&apos; target=&apos;doc&apos;&gt; Caution &lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>427</TD>
+          </TR>
+          <TR>
+            <TD>wise_allsky</TD>
+            <TD>allsky_3band_p1bl_lod</TD>
+            <TD>table</TD>
+            <TD>WISE 3-Band Cryo Single Exposure (L1b) Scan Inventory Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>428</TD>
+          </TR>
+          <TR>
+            <TD>wise_allsky</TD>
+            <TD>allsky_3band_p1bm_frm</TD>
+            <TD>table</TD>
+            <TD>WISE 3-Band Cryo Single Exposure (L1b) Image Inventory Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>429</TD>
+          </TR>
+          <TR>
+            <TD>wise_allsky</TD>
+            <TD>allsky_3band_p1bs_frm</TD>
+            <TD>table</TD>
+            <TD>WISE 3-Band Cryo Single Exposure (L1b) Frame Metadata Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>430</TD>
+          </TR>
+          <TR>
+            <TD>wise_allsky</TD>
+            <TD>allsky_3band_p1bs_psd</TD>
+            <TD>table</TD>
+            <TD>WISE 3-Band Cryo Single Exposure (L1b) Source Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>431</TD>
+          </TR>
+          <TR>
+            <TD>wise_allsky</TD>
+            <TD>allsky_3band_p3al_lod</TD>
+            <TD>table</TD>
+            <TD>WISE 3-Band Cryo Atlas Inventory Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>432</TD>
+          </TR>
+          <TR>
+            <TD>wise_allsky</TD>
+            <TD>allsky_3band_p3am_cdd</TD>
+            <TD>table</TD>
+            <TD>WISE 3-Band Cryo Atlas Image Inventory Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>433</TD>
+          </TR>
+          <TR>
+            <TD>wise_allsky</TD>
+            <TD>allsky_3band_p3am_xrf</TD>
+            <TD>table</TD>
+            <TD>WISE 3-Band Cryo Frame Cross-Reference Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>434</TD>
+          </TR>
+          <TR>
+            <TD>wise_allsky</TD>
+            <TD>allsky_3band_p3as_cdd</TD>
+            <TD>table</TD>
+            <TD>WISE 3-Band Cryo Atlas Metadata Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>435</TD>
+          </TR>
+          <TR>
+            <TD>wise_allsky</TD>
+            <TD>allsky_3band_p3as_psd</TD>
+            <TD>table</TD>
+            <TD>WISE 3-Band Cryo Source Working Database (&lt;a href=&apos;http://wise2.ipac.caltech.edu/docs/release/3band/expsup/wise_3band_wdb_README.html&apos; target=&apos;doc&apos;&gt; Readme&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>436</TD>
+          </TR>
+          <TR>
+            <TD>wise_allsky</TD>
+            <TD>allsky_4band_p1ba_mch</TD>
+            <TD>table</TD>
+            <TD>WISE All-Sky Known Solar System Object Possible Association List (&lt;a href=&apos;http://wise2.ipac.caltech.edu/docs/release/allsky/expsup/ssopal.README.html&apos; target=&apos;doc&apos;&gt; Caution &lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>437</TD>
+          </TR>
+          <TR>
+            <TD>wise_allsky</TD>
+            <TD>allsky_4band_p1bl_lod</TD>
+            <TD>table</TD>
+            <TD>WISE All-Sky Single Exposure (L1b) Scan Inventory Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>438</TD>
+          </TR>
+          <TR>
+            <TD>wise_allsky</TD>
+            <TD>allsky_4band_p1bm_frm</TD>
+            <TD>table</TD>
+            <TD>WISE All-Sky Single Exposure (L1b) Image Inventory Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>439</TD>
+          </TR>
+          <TR>
+            <TD>wise_allsky</TD>
+            <TD>allsky_4band_p1bs_frm</TD>
+            <TD>table</TD>
+            <TD>WISE All-Sky Single Exposure (L1b) Frame Metadata Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>440</TD>
+          </TR>
+          <TR>
+            <TD>wise_allsky</TD>
+            <TD>allsky_4band_p1bs_psd</TD>
+            <TD>table</TD>
+            <TD>WISE All-Sky Single Exposure (L1b) Source Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>441</TD>
+          </TR>
+          <TR>
+            <TD>wise_allsky</TD>
+            <TD>allsky_4band_p3al_lod</TD>
+            <TD>table</TD>
+            <TD>WISE All-Sky Atlas Inventory Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>442</TD>
+          </TR>
+          <TR>
+            <TD>wise_allsky</TD>
+            <TD>allsky_4band_p3am_cdd</TD>
+            <TD>table</TD>
+            <TD>WISE All-Sky Atlas Image Inventory Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>443</TD>
+          </TR>
+          <TR>
+            <TD>wise_allsky</TD>
+            <TD>allsky_4band_p3am_xrf</TD>
+            <TD>table</TD>
+            <TD>WISE All-Sky Frame Cross-Reference Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>444</TD>
+          </TR>
+          <TR>
+            <TD>wise_allsky</TD>
+            <TD>allsky_4band_p3as_cdd</TD>
+            <TD>table</TD>
+            <TD>WISE All-Sky Atlas Metadata Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>445</TD>
+          </TR>
+          <TR>
+            <TD>wise_allsky</TD>
+            <TD>allsky_4band_p3as_psd</TD>
+            <TD>table</TD>
+            <TD>WISE All-Sky Source Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>446</TD>
+          </TR>
+          <TR>
+            <TD>wise_allsky</TD>
+            <TD>allsky_4band_p3as_psr</TD>
+            <TD>table</TD>
+            <TD>WISE All-Sky Reject Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>447</TD>
+          </TR>
+          <TR>
+            <TD>wise_allwise</TD>
+            <TD>allwise_p3al_lod</TD>
+            <TD>table</TD>
+            <TD>AllWISE Atlas Inventory Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>448</TD>
+          </TR>
+          <TR>
+            <TD>wise_allwise</TD>
+            <TD>allwise_p3am_cdd</TD>
+            <TD>table</TD>
+            <TD>AllWISE Atlas Image Inventory Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>449</TD>
+          </TR>
+          <TR>
+            <TD>wise_allwise</TD>
+            <TD>allwise_p3am_xrf</TD>
+            <TD>table</TD>
+            <TD>AllWISE Frame Cross-Reference Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>450</TD>
+          </TR>
+          <TR>
+            <TD>wise_allwise</TD>
+            <TD>allwise_p3as_cdd</TD>
+            <TD>table</TD>
+            <TD>AllWISE Atlas Metadata Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>451</TD>
+          </TR>
+          <TR>
+            <TD>wise_allwise</TD>
+            <TD>allwise_p3as_mep</TD>
+            <TD>table</TD>
+            <TD>AllWISE Multiepoch Photometry Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>452</TD>
+          </TR>
+          <TR>
+            <TD>wise_allwise</TD>
+            <TD>allwise_p3as_psd</TD>
+            <TD>table</TD>
+            <TD>AllWISE Source Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>453</TD>
+          </TR>
+          <TR>
+            <TD>wise_allwise</TD>
+            <TD>allwise_p3as_psr</TD>
+            <TD>table</TD>
+            <TD>AllWISE Reject Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>454</TD>
+          </TR>
+          <TR>
+            <TD>wise_prelim</TD>
+            <TD>prelim_2band_p1ba_mch</TD>
+            <TD>table</TD>
+            <TD>WISE Preliminary Post-Cryo Solar System Object Possible Association List (&lt;a href=&apos;http://wise2.ipac.caltech.edu/docs/release/prelim/expsup/ssopal.README.html&apos; target=&apos;doc&apos;&gt; Caution &lt;/a&gt;, &lt;a href=&apos;/applications/Gator/superseded.html&apos;&gt;Superseded&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>455</TD>
+          </TR>
+          <TR>
+            <TD>wise_prelim</TD>
+            <TD>prelim_2band_p1bl_lod</TD>
+            <TD>table</TD>
+            <TD>WISE Preliminary Post-Cryo Single Exposure (L1b) Scan Inventory Table (&lt;a href=&apos;/applications/Gator/superseded.html&apos;&gt;Superseded&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>456</TD>
+          </TR>
+          <TR>
+            <TD>wise_prelim</TD>
+            <TD>prelim_2band_p1bm_frm</TD>
+            <TD>table</TD>
+            <TD>WISE Preliminary Post-Cryo Single Exposure (L1b) Image Inventory Table (&lt;a href=&apos;/applications/Gator/superseded.html&apos;&gt;Superseded&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>457</TD>
+          </TR>
+          <TR>
+            <TD>wise_prelim</TD>
+            <TD>prelim_2band_p1bs_frm</TD>
+            <TD>table</TD>
+            <TD>WISE Preliminary Post-Cryo Single Exposure (L1b) Frame Metadata Table (&lt;a href=&apos;/applications/Gator/superseded.html&apos;&gt;Superseded&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>458</TD>
+          </TR>
+          <TR>
+            <TD>wise_prelim</TD>
+            <TD>prelim_2band_p1bs_psd</TD>
+            <TD>table</TD>
+            <TD>WISE Preliminary Post-Cryo Single Exposure (L1b)  Source Table (&lt;a href=&apos;/applications/Gator/superseded.html&apos;&gt;Superseded&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>459</TD>
+          </TR>
+          <TR>
+            <TD>wise_prelim</TD>
+            <TD>prelim_p1ba_mch</TD>
+            <TD>table</TD>
+            <TD>WISE Preliminary Release Known Solar System Object Possible Association List (&lt;a href=&apos;http://wise2.ipac.caltech.edu/docs/release/prelim/expsup/ssopal.README.html&apos; target=&apos;doc&apos;&gt; Caution &lt;/a&gt;, &lt;a href=&apos;/applications/Gator/superseded.html&apos; target=&apos;doc&apos;&gt;Superseded&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>460</TD>
+          </TR>
+          <TR>
+            <TD>wise_prelim</TD>
+            <TD>prelim_p1bl_lod</TD>
+            <TD>table</TD>
+            <TD>WISE Preliminary Release Single Exposure (L1b) Scan Inventory Table (&lt;a href=&apos;/applications/Gator/superseded.html&apos; target=&apos;doc&apos;&gt;Superseded&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>461</TD>
+          </TR>
+          <TR>
+            <TD>wise_prelim</TD>
+            <TD>prelim_p1bm_frm</TD>
+            <TD>table</TD>
+            <TD>WISE Preliminary Release Single Exposure (L1b) Image Inventory Table (&lt;a href=&apos;/applications/Gator/superseded.html&apos; target=&apos;doc&apos;&gt;Superseded&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>462</TD>
+          </TR>
+          <TR>
+            <TD>wise_prelim</TD>
+            <TD>prelim_p1bs_frm</TD>
+            <TD>table</TD>
+            <TD>WISE Preliminary Release Single Exposure (L1b) Frame Metadata Table (&lt;a href=&apos;/applications/Gator/superseded.html&apos; target=&apos;doc&apos;&gt;Superseded&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>463</TD>
+          </TR>
+          <TR>
+            <TD>wise_prelim</TD>
+            <TD>prelim_p1bs_psd</TD>
+            <TD>table</TD>
+            <TD>WISE Preliminary Release Single Exposure (L1b) Source Table (&lt;a href=&apos;/applications/Gator/superseded.html&apos; target=&apos;doc&apos;&gt;Superseded&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>464</TD>
+          </TR>
+          <TR>
+            <TD>wise_prelim</TD>
+            <TD>prelim_p3al_lod</TD>
+            <TD>table</TD>
+            <TD>WISE Preliminary Release Atlas Inventory Table (&lt;a href=&apos;/applications/Gator/superseded.html&apos; target=&apos;doc&apos;&gt;Superseded&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>465</TD>
+          </TR>
+          <TR>
+            <TD>wise_prelim</TD>
+            <TD>prelim_p3am_cdd</TD>
+            <TD>table</TD>
+            <TD>WISE Preliminary Release Atlas Image Inventory Table (&lt;a href=&apos;/applications/Gator/superseded.html&apos; target=&apos;doc&apos;&gt;Superseded&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>466</TD>
+          </TR>
+          <TR>
+            <TD>wise_prelim</TD>
+            <TD>prelim_p3am_xrf</TD>
+            <TD>table</TD>
+            <TD>WISE Preliminary Release Frame Cross-Reference Table (&lt;a href=&apos;/applications/Gator/superseded.html&apos; target=&apos;doc&apos;&gt;Superseded&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>467</TD>
+          </TR>
+          <TR>
+            <TD>wise_prelim</TD>
+            <TD>prelim_p3as_cdd</TD>
+            <TD>table</TD>
+            <TD>WISE Preliminary Release Atlas Metadata Table (&lt;a href=&apos;/applications/Gator/superseded.html&apos; target=&apos;doc&apos;&gt;Superseded&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>468</TD>
+          </TR>
+          <TR>
+            <TD>wise_prelim</TD>
+            <TD>prelim_p3as_psd</TD>
+            <TD>table</TD>
+            <TD>WISE Preliminary Release Source Catalog (&lt;a href=&apos;/applications/Gator/superseded.html&apos; target=&apos;doc&apos;&gt;Superseded&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>469</TD>
+          </TR>
+          <TR>
+            <TD>toi</TD>
+            <TD>planck_toi_030</TD>
+            <TD>table</TD>
+            <TD>The Planck Public Data Release 2 Time Ordered Information (LFI 30 GHz)</TD>
+            <TD></TD>
+            <TD>SQLite</TD>
+            <TD>y</TD>
+            <TD>470</TD>
+          </TR>
+          <TR>
+            <TD>toi</TD>
+            <TD>planck_toi_044</TD>
+            <TD>table</TD>
+            <TD>The Planck Public Data Release 2 Time Ordered Information (LFI 44 GHz)</TD>
+            <TD></TD>
+            <TD>SQLite</TD>
+            <TD>y</TD>
+            <TD>471</TD>
+          </TR>
+          <TR>
+            <TD>toi</TD>
+            <TD>planck_toi_070</TD>
+            <TD>table</TD>
+            <TD>The Planck Public Data Release 2 Time Ordered Information (LFI 70 GHz)</TD>
+            <TD></TD>
+            <TD>SQLite</TD>
+            <TD>y</TD>
+            <TD>472</TD>
+          </TR>
+          <TR>
+            <TD>toi</TD>
+            <TD>planck_toi_100</TD>
+            <TD>table</TD>
+            <TD>The Planck Public Data Release 2 Time Ordered Information (HFI 100 GHz)</TD>
+            <TD></TD>
+            <TD>SQLite</TD>
+            <TD>y</TD>
+            <TD>473</TD>
+          </TR>
+          <TR>
+            <TD>toi</TD>
+            <TD>planck_toi_143</TD>
+            <TD>table</TD>
+            <TD>The Planck Public Data Release 2 Time Ordered Information (HFI 143 GHz)</TD>
+            <TD></TD>
+            <TD>SQLite</TD>
+            <TD>y</TD>
+            <TD>474</TD>
+          </TR>
+          <TR>
+            <TD>toi</TD>
+            <TD>planck_toi_217</TD>
+            <TD>table</TD>
+            <TD>The Planck Public Data Release 2 Time Ordered Information (HFI 217 GHz)</TD>
+            <TD></TD>
+            <TD>SQLite</TD>
+            <TD>y</TD>
+            <TD>475</TD>
+          </TR>
+          <TR>
+            <TD>toi</TD>
+            <TD>planck_toi_353</TD>
+            <TD>table</TD>
+            <TD>The Planck Public Data Release 2 Time Ordered Information (HFI 353 GHz)</TD>
+            <TD></TD>
+            <TD>SQLite</TD>
+            <TD>y</TD>
+            <TD>476</TD>
+          </TR>
+          <TR>
+            <TD>toi</TD>
+            <TD>planck_toi_545</TD>
+            <TD>table</TD>
+            <TD>The Planck Public Data Release 2 Time Ordered Information (HFI 545 GHz)</TD>
+            <TD></TD>
+            <TD>SQLite</TD>
+            <TD>y</TD>
+            <TD>477</TD>
+          </TR>
+          <TR>
+            <TD>toi</TD>
+            <TD>planck_toi_857</TD>
+            <TD>table</TD>
+            <TD>The Planck Public Data Release 2 Time Ordered Information (HFI 857 GHz)</TD>
+            <TD></TD>
+            <TD>SQLite</TD>
+            <TD>y</TD>
+            <TD>478</TD>
+          </TR>
+          <TR>
+            <TD>TAP_SCHEMA</TD>
+            <TD>columns</TD>
+            <TD>table</TD>
+            <TD>Available columns at NASA/IPAC Infrared Science Archive</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>1</TD>
+          </TR>
+          <TR>
+            <TD>TAP_SCHEMA</TD>
+            <TD>key_columns</TD>
+            <TD>table</TD>
+            <TD>Available Key Columns at NASA/IPAC Infrared Science Archive</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>2</TD>
+          </TR>
+          <TR>
+            <TD>TAP_SCHEMA</TD>
+            <TD>keys</TD>
+            <TD>table</TD>
+            <TD>Available Keys at NASA/IPAC Infrared Science Archive</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>3</TD>
+          </TR>
+          <TR>
+            <TD>TAP_SCHEMA</TD>
+            <TD>schemas</TD>
+            <TD>table</TD>
+            <TD>Available schemas at NASA/IPAC Infrared Science Archive</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>4</TD>
+          </TR>
+          <TR>
+            <TD>TAP_SCHEMA</TD>
+            <TD>tables</TD>
+            <TD>table</TD>
+            <TD>Available tables at NASA/IPAC Infrared Science Archive</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>5</TD>
+          </TR>
+          <TR>
+            <TD>akari</TD>
+            <TD>akari_fis</TD>
+            <TD>table</TD>
+            <TD>Akari/FIS Bright Source Catalogue</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>6</TD>
+          </TR>
+          <TR>
+            <TD>akari</TD>
+            <TD>akari_irc</TD>
+            <TD>table</TD>
+            <TD>Akari/IRC Point Source Catalogue</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>7</TD>
+          </TR>
+          <TR>
+            <TD>astrometry</TD>
+            <TD>acs_iphot_sep07</TD>
+            <TD>table</TD>
+            <TD>COSMOS ACS I-band photometry catalog September 2007</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>8</TD>
+          </TR>
+          <TR>
+            <TD>astrometry</TD>
+            <TD>cosmos327</TD>
+            <TD>table</TD>
+            <TD>COSMOS VLA 327 MHz Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>9</TD>
+          </TR>
+          <TR>
+            <TD>astrometry</TD>
+            <TD>cosmos_chandra_bsc21</TD>
+            <TD>table</TD>
+            <TD>Chandra-COSMOS Bright Source Catalog v2.1</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>10</TD>
+          </TR>
+          <TR>
+            <TD>astrometry</TD>
+            <TD>cosmos_ib_phot</TD>
+            <TD>table</TD>
+            <TD>COSMOS Intermediate and Broad Band Photometry Catalog 2008</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>11</TD>
+          </TR>
+          <TR>
+            <TD>astrometry</TD>
+            <TD>cosmos_morph_cassata_1_1</TD>
+            <TD>table</TD>
+            <TD>COSMOS Cassata Morphology Catalog v1.1</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>12</TD>
+          </TR>
+          <TR>
+            <TD>astrometry</TD>
+            <TD>cosmos_morph_col_1</TD>
+            <TD>table</TD>
+            <TD>COSMOS Zamojski Morphology Catalog v1.0</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>13</TD>
+          </TR>
+          <TR>
+            <TD>astrometry</TD>
+            <TD>cosmos_morph_tasca_1_1</TD>
+            <TD>table</TD>
+            <TD>COSMOS Tasca Morphology Catalog v1.1</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>14</TD>
+          </TR>
+          <TR>
+            <TD>astrometry</TD>
+            <TD>cosmos_morph_zurich_1</TD>
+            <TD>table</TD>
+            <TD>COSMOS Zurich Structure and Morphology Catalog v1.0</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>15</TD>
+          </TR>
+          <TR>
+            <TD>astrometry</TD>
+            <TD>cosmos_phot</TD>
+            <TD>table</TD>
+            <TD>COSMOS Photometry Catalog January 2006</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>16</TD>
+          </TR>
+          <TR>
+            <TD>astrometry</TD>
+            <TD>cosmos_vla_deep_may2010</TD>
+            <TD>table</TD>
+            <TD>COSMOS VLA Deep Catalog May 2010</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>17</TD>
+          </TR>
+          <TR>
+            <TD>astrometry</TD>
+            <TD>cosmos_xgal</TD>
+            <TD>table</TD>
+            <TD>COSMOS X-ray Group Member Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>18</TD>
+          </TR>
+          <TR>
+            <TD>astrometry</TD>
+            <TD>cosmos_xgroups</TD>
+            <TD>table</TD>
+            <TD>COSMOS X-ray Group Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>19</TD>
+          </TR>
+          <TR>
+            <TD>astrometry</TD>
+            <TD>cosmos_xmm_2</TD>
+            <TD>table</TD>
+            <TD>COSMOS XMM Point-like Source Catalog v2.0</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>20</TD>
+          </TR>
+          <TR>
+            <TD>astrometry</TD>
+            <TD>cosmos_zphot_mag25</TD>
+            <TD>table</TD>
+            <TD>COSMOS Photometric Redshift Catalog Fall 2008 (&lt;a href=&apos;/data/COSMOS/tables/redshift/cosmos_zphot_mag25.README&apos;&gt;README&lt;/a&gt; - mag 25 limited)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>21</TD>
+          </TR>
+          <TR>
+            <TD>astrometry</TD>
+            <TD>cygx_arch</TD>
+            <TD>table</TD>
+            <TD>Cygnus-X Archive</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>22</TD>
+          </TR>
+          <TR>
+            <TD>astrometry</TD>
+            <TD>cygx_cat</TD>
+            <TD>table</TD>
+            <TD>Cygnus-X Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>23</TD>
+          </TR>
+          <TR>
+            <TD>astrometry</TD>
+            <TD>galex_emphot_v3</TD>
+            <TD>table</TD>
+            <TD>GALEX/COSMOS Prior-based Photometry Catalog June 2008</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>24</TD>
+          </TR>
+          <TR>
+            <TD>astrometry</TD>
+            <TD>morphology_2005</TD>
+            <TD>table</TD>
+            <TD>COSMOS Morphology Catalog 2005</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>25</TD>
+          </TR>
+          <TR>
+            <TD>astrometry</TD>
+            <TD>scosmos_irac_0407</TD>
+            <TD>table</TD>
+            <TD>S-COSMOS IRAC 4-channel Photometry Catalog June 2007 (&lt;a href=&apos;/data/COSMOS/gator_docs/scosmos_irac_colDescriptions.html&apos;&gt;README&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>26</TD>
+          </TR>
+          <TR>
+            <TD>astrometry</TD>
+            <TD>scosmos_mips_160_v3</TD>
+            <TD>table</TD>
+            <TD>S-COSMOS MIPS 160um Photometry Catalog v3 Jan 2009</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>27</TD>
+          </TR>
+          <TR>
+            <TD>astrometry</TD>
+            <TD>scosmos_mips_24_go2</TD>
+            <TD>table</TD>
+            <TD>S-COSMOS MIPS 24um MAIN Photometry Catalog June 2007 (&lt;a href=&apos;/data/COSMOS/gator_docs/scosmos_mips_24_colDescriptions.html#aug_note&apos;&gt;(Aug 2008: Important Flux-correction Note)&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>28</TD>
+          </TR>
+          <TR>
+            <TD>astrometry</TD>
+            <TD>scosmos_mips_24_go2_deep</TD>
+            <TD>table</TD>
+            <TD>S-COSMOS MIPS 24um DEEP Photometry Catalog June 2007 (&lt;a href=&apos;/data/COSMOS/gator_docs/scosmos_mips_24_colDescriptions.html#aug_note&apos;&gt;(Aug 2008: Important Flux-correction Note)&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>29</TD>
+          </TR>
+          <TR>
+            <TD>astrometry</TD>
+            <TD>scosmos_mips_24_go3</TD>
+            <TD>table</TD>
+            <TD>S-COSMOS MIPS 24 Photometry Catalog October 2008</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>30</TD>
+          </TR>
+          <TR>
+            <TD>astrometry</TD>
+            <TD>scosmos_mips_70_v3</TD>
+            <TD>table</TD>
+            <TD>S-COSMOS MIPS 70um Photometry Catalog v3 Jan 2009</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>31</TD>
+          </TR>
+          <TR>
+            <TD>astrometry</TD>
+            <TD>taurus_2008_2_1</TD>
+            <TD>table</TD>
+            <TD>Taurus Catalog October 2008 v2.1</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>32</TD>
+          </TR>
+          <TR>
+            <TD>c2d</TD>
+            <TD>dr4_MM</TD>
+            <TD>table</TD>
+            <TD>C2D Fall &apos;07 Millimeter (MM) Sources Catalog (OPH, PER, SER Clouds)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>33</TD>
+          </TR>
+          <TR>
+            <TD>c2d</TD>
+            <TD>dr4_clouds_full</TD>
+            <TD>table</TD>
+            <TD>C2D Fall &apos;07 Full CLOUDS Catalog (CHA_II, LUP, OPH, PER, SER)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>34</TD>
+          </TR>
+          <TR>
+            <TD>c2d</TD>
+            <TD>dr4_clouds_hrel</TD>
+            <TD>table</TD>
+            <TD>C2D Fall &apos;07 High Reliability (HREL) CLOUDS Catalog (CHA_II, LUP, OPH, PER, SER)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>35</TD>
+          </TR>
+          <TR>
+            <TD>c2d</TD>
+            <TD>dr4_clouds_ysoc</TD>
+            <TD>table</TD>
+            <TD>C2D Fall &apos;07 candidate Young Stellar Objects (YSO) CLOUDS Catalog (CHA_II, LUP, OPH, PER, SER)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>36</TD>
+          </TR>
+          <TR>
+            <TD>c2d</TD>
+            <TD>dr4_cores_full</TD>
+            <TD>table</TD>
+            <TD>C2D Fall &apos;07 Full CORES Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>37</TD>
+          </TR>
+          <TR>
+            <TD>c2d</TD>
+            <TD>dr4_cores_hrel</TD>
+            <TD>table</TD>
+            <TD>C2D Fall &apos;07 High Reliability (HREL) CORES Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>38</TD>
+          </TR>
+          <TR>
+            <TD>c2d</TD>
+            <TD>dr4_cores_ysoc</TD>
+            <TD>table</TD>
+            <TD>C2D Fall &apos;07 candidate Young Stellar Objects (YSO) CORES Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>39</TD>
+          </TR>
+          <TR>
+            <TD>c2d</TD>
+            <TD>dr4_off_cloud_full</TD>
+            <TD>table</TD>
+            <TD>C2D Fall &apos;07 Full OFF-CLOUD Catalog (CHA_II, LUP, OPH, PER, SER)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>40</TD>
+          </TR>
+          <TR>
+            <TD>c2d</TD>
+            <TD>dr4_off_cloud_hrel</TD>
+            <TD>table</TD>
+            <TD>C2D Fall &apos;07 High Reliability (HREL) OFF-CLOUD Catalog (CHA_II, LUP, OPH, PER, SER)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>41</TD>
+          </TR>
+          <TR>
+            <TD>c2d</TD>
+            <TD>dr4_off_cloud_ysoc</TD>
+            <TD>table</TD>
+            <TD>C2D Fall &apos;07 candidate Young Stellar Objects (YSO) OFF-CLOUD Catalog (CHA_II, LUP, OPH, PER, SER)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>42</TD>
+          </TR>
+          <TR>
+            <TD>c2d</TD>
+            <TD>dr4_stars_full</TD>
+            <TD>table</TD>
+            <TD>C2D Fall &apos;07 Full STARS Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>43</TD>
+          </TR>
+          <TR>
+            <TD>c2d</TD>
+            <TD>dr4_stars_hrel</TD>
+            <TD>table</TD>
+            <TD>C2D Fall &apos;07 High Reliability (HREL) STARS Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>44</TD>
+          </TR>
+          <TR>
+            <TD>c2d</TD>
+            <TD>dr4_stars_ysoc</TD>
+            <TD>table</TD>
+            <TD>C2D Fall &apos;07 candidate Young Stellar Objects (YSO) STARS Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>45</TD>
+          </TR>
+          <TR>
+            <TD>c2d</TD>
+            <TD>dr4_trans1_full</TD>
+            <TD>table</TD>
+            <TD>C2D Fall &apos;07 Perseus Epoch 1 Transient Sources FULL Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>46</TD>
+          </TR>
+          <TR>
+            <TD>c2d</TD>
+            <TD>dr4_trans2_full</TD>
+            <TD>table</TD>
+            <TD>C2D Fall &apos;07 Perseus Epoch 2 Transient Sources FULL Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>47</TD>
+          </TR>
+          <TR>
+            <TD>contributed</TD>
+            <TD>brava</TD>
+            <TD>table</TD>
+            <TD>BRAVA Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>48</TD>
+          </TR>
+          <TR>
+            <TD>contributed</TD>
+            <TD>musyc_phot</TD>
+            <TD>table</TD>
+            <TD>MUSYC Photometry Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>49</TD>
+          </TR>
+          <TR>
+            <TD>contributed</TD>
+            <TD>musyc_photz</TD>
+            <TD>table</TD>
+            <TD>MUSYC Photometric Redshift Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>50</TD>
+          </TR>
+          <TR>
+            <TD>contributed</TD>
+            <TD>ptfphotcalcat</TD>
+            <TD>table</TD>
+            <TD>PTF Photometric Calibrator Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>51</TD>
+          </TR>
+          <TR>
+            <TD>correlation</TD>
+            <TD>ppmxl</TD>
+            <TD>table</TD>
+            <TD>PPMXL: A Proper Motion Catalog Combining USNO-B and 2MASS</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>52</TD>
+          </TR>
+          <TR>
+            <TD>denis</TD>
+            <TD>denis3</TD>
+            <TD>table</TD>
+            <TD>DENIS 3rd Release (Sep. 2005)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>53</TD>
+          </TR>
+          <TR>
+            <TD>fp_2mass</TD>
+            <TD>fp_coadd_dat</TD>
+            <TD>table</TD>
+            <TD>2MASS All-Sky Survey Atlas Image Info</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>54</TD>
+          </TR>
+          <TR>
+            <TD>fp_2mass</TD>
+            <TD>fp_psc</TD>
+            <TD>table</TD>
+            <TD>2MASS All-Sky Point Source Catalog (PSC)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>55</TD>
+          </TR>
+          <TR>
+            <TD>fp_2mass</TD>
+            <TD>fp_scan_dat</TD>
+            <TD>table</TD>
+            <TD>2MASS All-Sky Survey Scan Info (&lt;a href=&apos;/applications/Gator/GatorAid/irsa/scan.html&apos;&gt;Read Me!&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>56</TD>
+          </TR>
+          <TR>
+            <TD>fp_2mass</TD>
+            <TD>fp_xsc</TD>
+            <TD>table</TD>
+            <TD>2MASS All-Sky Extended Source Catalog (XSC)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>57</TD>
+          </TR>
+          <TR>
+            <TD>gaia</TD>
+            <TD>gaia_source_dr1</TD>
+            <TD>table</TD>
+            <TD>Gaia Catalogue</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>58</TD>
+          </TR>
+          <TR>
+            <TD>iras</TD>
+            <TD>astsight</TD>
+            <TD>table</TD>
+            <TD>IRAS Minor Planet Survey</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>59</TD>
+          </TR>
+          <TR>
+            <TD>iras</TD>
+            <TD>comsight</TD>
+            <TD>table</TD>
+            <TD>IRAS Asteroid and Comet Survey</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>60</TD>
+          </TR>
+          <TR>
+            <TD>iras</TD>
+            <TD>iras_ao</TD>
+            <TD>table</TD>
+            <TD>IRAS Additional Observations (AO) Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>61</TD>
+          </TR>
+          <TR>
+            <TD>iras</TD>
+            <TD>irascatalog</TD>
+            <TD>table</TD>
+            <TD>IRAS 1.2-Jy Redshift Survey</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>62</TD>
+          </TR>
+          <TR>
+            <TD>iras</TD>
+            <TD>irasfsc</TD>
+            <TD>table</TD>
+            <TD>IRAS Faint Source Catalog v2.0 (FSC)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>63</TD>
+          </TR>
+          <TR>
+            <TD>iras</TD>
+            <TD>irasfscr</TD>
+            <TD>table</TD>
+            <TD>IRAS Faint Source Catalog Rejects</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>64</TD>
+          </TR>
+          <TR>
+            <TD>iras</TD>
+            <TD>irasgal</TD>
+            <TD>table</TD>
+            <TD>IRAS Cataloged Galaxies and Quasars</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>65</TD>
+          </TR>
+          <TR>
+            <TD>iras</TD>
+            <TD>iraspsc</TD>
+            <TD>table</TD>
+            <TD>IRAS Point Source Catalog v2.1 (PSC)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>66</TD>
+          </TR>
+          <TR>
+            <TD>iras</TD>
+            <TD>iraspsch</TD>
+            <TD>table</TD>
+            <TD>IRAS PSC joined with HCON and WSDB</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>67</TD>
+          </TR>
+          <TR>
+            <TD>iras</TD>
+            <TD>iraspscr</TD>
+            <TD>table</TD>
+            <TD>IRAS Point Source Catalog Rejects</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>68</TD>
+          </TR>
+          <TR>
+            <TD>iras</TD>
+            <TD>iraspscw</TD>
+            <TD>table</TD>
+            <TD>IRAS PSC joined with WSDB</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>69</TD>
+          </TR>
+          <TR>
+            <TD>iras</TD>
+            <TD>irasssc</TD>
+            <TD>table</TD>
+            <TD>IRAS Serendipitous Survey Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>70</TD>
+          </TR>
+          <TR>
+            <TD>iras</TD>
+            <TD>irassss</TD>
+            <TD>table</TD>
+            <TD>IRAS Small Scale Structure Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>71</TD>
+          </TR>
+          <TR>
+            <TD>iras</TD>
+            <TD>summary</TD>
+            <TD>table</TD>
+            <TD>IRAS Large Galaxies Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>72</TD>
+          </TR>
+          <TR>
+            <TD>msx</TD>
+            <TD>msxc6</TD>
+            <TD>table</TD>
+            <TD>The Midcourse Space Experiment (MSXC6)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>73</TD>
+          </TR>
+          <TR>
+            <TD>msx</TD>
+            <TD>msxc6_rej</TD>
+            <TD>table</TD>
+            <TD>The Midcourse Space Experiment (MSXC6) Rejects</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>74</TD>
+          </TR>
+          <TR>
+            <TD>neowiser</TD>
+            <TD>neowiser_p1ba_mch</TD>
+            <TD>table</TD>
+            <TD>NEOWISE-R Known Solar System Object Possible Association List (&lt;a href=&apos;http://wise2.ipac.caltech.edu/docs/release/neowise/expsup/kssopal.README.html&apos; target=&apos;doc&apos;&gt; Caution &lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>75</TD>
+          </TR>
+          <TR>
+            <TD>neowiser</TD>
+            <TD>neowiser_p1bl_lod</TD>
+            <TD>table</TD>
+            <TD>NEOWISE-R Single Exposure (L1b) Scan Inventory Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>76</TD>
+          </TR>
+          <TR>
+            <TD>neowiser</TD>
+            <TD>neowiser_p1bm_frm</TD>
+            <TD>table</TD>
+            <TD>NEOWISE-R Single Exposure (L1b) Image Inventory Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>77</TD>
+          </TR>
+          <TR>
+            <TD>neowiser</TD>
+            <TD>neowiser_p1bs_frm</TD>
+            <TD>table</TD>
+            <TD>NEOWISE-R Single Exposure (L1b) Frame Metadata Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>78</TD>
+          </TR>
+          <TR>
+            <TD>neowiser</TD>
+            <TD>neowiser_p1bs_psd</TD>
+            <TD>table</TD>
+            <TD>NEOWISE-R Single Exposure (L1b) Source Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>79</TD>
+          </TR>
+          <TR>
+            <TD>ntmass</TD>
+            <TD>ext_src_cat</TD>
+            <TD>table</TD>
+            <TD>2MASS Second Incremental Release Extended Source Catalog (XSC)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>80</TD>
+          </TR>
+          <TR>
+            <TD>ntmass</TD>
+            <TD>pt_src_cat</TD>
+            <TD>table</TD>
+            <TD>2MASS Second Incremental Release Point Source Catalog (PSC)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>81</TD>
+          </TR>
+          <TR>
+            <TD>ntmass</TD>
+            <TD>scan_dat_2</TD>
+            <TD>table</TD>
+            <TD>2MASS Second Incremental Release Survey Scan Info</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>82</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>com_pccs1_030</TD>
+            <TD>table</TD>
+            <TD>Planck PCCS 30GHz Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>83</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>com_pccs1_044</TD>
+            <TD>table</TD>
+            <TD>Planck PCCS 44GHz Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>84</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>com_pccs1_070</TD>
+            <TD>table</TD>
+            <TD>Planck PCCS 70GHz Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>85</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>com_pccs1_100</TD>
+            <TD>table</TD>
+            <TD>Planck PCCS 100GHz Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>86</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>com_pccs1_143</TD>
+            <TD>table</TD>
+            <TD>Planck PCCS 143GHz Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>87</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>com_pccs1_217</TD>
+            <TD>table</TD>
+            <TD>Planck PCCS 217GHz Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>88</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>com_pccs1_353</TD>
+            <TD>table</TD>
+            <TD>Planck PCCS 353GHz Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>89</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>com_pccs1_545</TD>
+            <TD>table</TD>
+            <TD>Planck PCCS 545GHz Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>90</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>com_pccs1_857</TD>
+            <TD>table</TD>
+            <TD>Planck PCCS 857GHz Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>91</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>com_pccs1_sz_mmf1</TD>
+            <TD>table</TD>
+            <TD>Planck Sunyaev-Zeldovich Cluster MMF1 List</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>92</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>com_pccs1_sz_mmf3</TD>
+            <TD>table</TD>
+            <TD>Planck Sunyaev-Zeldovich Cluster MMF3 List</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>93</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>com_pccs1_sz_pws</TD>
+            <TD>table</TD>
+            <TD>Planck Sunyaev-Zeldovich Cluster PwS List</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>94</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>com_pccs1_sz_union2</TD>
+            <TD>table</TD>
+            <TD>Planck Sunyaev-Zeldovich Cluster UNION List v2.1</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>95</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>com_pccs2_030</TD>
+            <TD>table</TD>
+            <TD>Planck PCCS2 30GHz Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>96</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>com_pccs2_044</TD>
+            <TD>table</TD>
+            <TD>Planck PCCS2 44GHz Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>97</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>com_pccs2_070</TD>
+            <TD>table</TD>
+            <TD>Planck PCCS2 70GHz Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>98</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>com_pccs2_100</TD>
+            <TD>table</TD>
+            <TD>Planck PCCS2 100GHz Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>99</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>com_pccs2_143</TD>
+            <TD>table</TD>
+            <TD>Planck PCCS2 143GHz Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>100</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>com_pccs2_217</TD>
+            <TD>table</TD>
+            <TD>Planck PCCS2 217GHz Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>101</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>com_pccs2_353</TD>
+            <TD>table</TD>
+            <TD>Planck PCCS2 353GHz Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>102</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>com_pccs2_545</TD>
+            <TD>table</TD>
+            <TD>Planck PCCS2 545GHz Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>103</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>com_pccs2_857</TD>
+            <TD>table</TD>
+            <TD>Planck PCCS2 857GHz Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>104</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>com_pccs2_gcc</TD>
+            <TD>table</TD>
+            <TD>Planck Catalog of Galactic Cold Clumps</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>105</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>com_pccs2_sz_mmf1</TD>
+            <TD>table</TD>
+            <TD>Planck PR2 Sunyaev-Zeldovich Cluster MMF1 List</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>106</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>com_pccs2_sz_mmf3</TD>
+            <TD>table</TD>
+            <TD>Planck PR2 Sunyaev-Zeldovich Cluster MMF3 List</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>107</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>com_pccs2_sz_pws</TD>
+            <TD>table</TD>
+            <TD>Planck PR2 Sunyaev-Zeldovich Cluster PwS List</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>108</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>com_pccs2_sz_union</TD>
+            <TD>table</TD>
+            <TD>Planck PR2 Sunyaev-Zeldovich Cluster UNION List</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>109</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>com_pccs2e_100</TD>
+            <TD>table</TD>
+            <TD>Planck PCCS2E 100GHz Catalog (lower reliability)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>110</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>com_pccs2e_143</TD>
+            <TD>table</TD>
+            <TD>Planck PCCS2E 143GHz Catalog (lower reliability)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>111</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>com_pccs2e_217</TD>
+            <TD>table</TD>
+            <TD>Planck PCCS2E 217GHz Catalog (lower reliability)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>112</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>com_pccs2e_353</TD>
+            <TD>table</TD>
+            <TD>Planck PCCS2E 353GHz Catalog (lower reliability)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>113</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>com_pccs2e_545</TD>
+            <TD>table</TD>
+            <TD>Planck PCCS2E 545GHz Catalog (lower reliability)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>114</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>com_pccs2e_857</TD>
+            <TD>table</TD>
+            <TD>Planck PCCS2E 857GHz Catalog (lower reliability)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>115</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>ecc</TD>
+            <TD>table</TD>
+            <TD>Planck Early Cold Core Source List (ECC)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>116</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>ercsc_f030_e</TD>
+            <TD>table</TD>
+            <TD>Planck ERCSC 30GHz Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>117</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>ercsc_f044_e</TD>
+            <TD>table</TD>
+            <TD>Planck ERCSC 44GHz Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>118</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>ercsc_f070_e</TD>
+            <TD>table</TD>
+            <TD>Planck ERCSC 70GHz Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>119</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>ercsc_f100_e</TD>
+            <TD>table</TD>
+            <TD>Planck ERCSC 100GHz Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>120</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>ercsc_f143_e</TD>
+            <TD>table</TD>
+            <TD>Planck ERCSC 143GHz Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>121</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>ercsc_f217_e</TD>
+            <TD>table</TD>
+            <TD>Planck ERCSC 217GHz Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>122</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>ercsc_f353_e</TD>
+            <TD>table</TD>
+            <TD>Planck ERCSC 353GHz Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>123</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>ercsc_f545_e</TD>
+            <TD>table</TD>
+            <TD>Planck ERCSC 545GHz Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>124</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>ercsc_f857_e</TD>
+            <TD>table</TD>
+            <TD>Planck ERCSC 857GHz Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>125</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>ercscbm</TD>
+            <TD>table</TD>
+            <TD>Planck ERCSC Bandmerged Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>126</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>esz</TD>
+            <TD>table</TD>
+            <TD>Planck Early Sunyaev-Zeldovich Cluster List (ESZ)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>127</TD>
+          </TR>
+          <TR>
+            <TD>planck</TD>
+            <TD>planckphz</TD>
+            <TD>table</TD>
+            <TD>Planck List of High Redshift Source Candidates</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>128</TD>
+          </TR>
+          <TR>
+            <TD>ptf</TD>
+            <TD>ptf_lightcurves</TD>
+            <TD>table</TD>
+            <TD>PTF Lightcurve Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>129</TD>
+          </TR>
+          <TR>
+            <TD>ptf</TD>
+            <TD>ptf_objects</TD>
+            <TD>table</TD>
+            <TD>PTF Objects</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>130</TD>
+          </TR>
+          <TR>
+            <TD>ptf</TD>
+            <TD>ptf_sources</TD>
+            <TD>table</TD>
+            <TD>PTF Sources Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>131</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>acmccat</TD>
+            <TD>table</TD>
+            <TD>ACMC Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>132</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>bolocam_gps_v1_0_1</TD>
+            <TD>table</TD>
+            <TD>BOLOCAM Galactic Plane Survey Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>133</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>bolocamdist</TD>
+            <TD>table</TD>
+            <TD>BOLOCAM Galactic Plane Survey Distance Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>134</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>bolocamv21</TD>
+            <TD>table</TD>
+            <TD>BOLOCAM Galactic Plane Survey Catalog v2.1</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>135</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>deepglimpsea</TD>
+            <TD>table</TD>
+            <TD>Deep GLIMPSE Archive (&lt;a href=&apos;/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html&apos; target=&apos;doc&apos;&gt;more complete, less reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>136</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>deepglimpsec</TD>
+            <TD>table</TD>
+            <TD>Deep GLIMPSE Catalog (&lt;a href=&apos;/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html&apos; target=&apos;doc&apos;&gt;highly reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>137</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>dunes</TD>
+            <TD>table</TD>
+            <TD>DUNES Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>138</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>dustingsfull</TD>
+            <TD>table</TD>
+            <TD>DUSTiNGS Full Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>139</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>dustingsgsc</TD>
+            <TD>table</TD>
+            <TD>DUSTiNGS Good Source Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>140</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>feps_phot</TD>
+            <TD>table</TD>
+            <TD>FEPS Photometry Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>141</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>fls_release_v2_mmt_spectra</TD>
+            <TD>table</TD>
+            <TD>FLS MMT/Hectospec Spectroscopic Catalog (V2)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>142</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>fls_release_v2_photom</TD>
+            <TD>table</TD>
+            <TD>FLS SDSS and MIPS Astrometric and Photometric Catalog (V2)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>143</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>fls_release_v2_sdss_spectra</TD>
+            <TD>table</TD>
+            <TD>FLS SDSS Spectroscopic Catalog (V2)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>144</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>galcen_psc</TD>
+            <TD>table</TD>
+            <TD>Point Source in a Spitzer/IRAC Survey of the Galactic Center (Ramirez et al. 2008)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>145</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>glimpse2_v2arc</TD>
+            <TD>table</TD>
+            <TD>GLIMPSE II Spring &apos;08 Archive (&lt;a href=&apos;/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html&apos; target=&apos;doc&apos;&gt;more complete, less reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>146</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>glimpse2_v2cat</TD>
+            <TD>table</TD>
+            <TD>GLIMPSE II Spring &apos;08 Catalog (&lt;a href=&apos;/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html&apos; target=&apos;doc&apos;&gt;highly reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>147</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>glimpse2ep1a08</TD>
+            <TD>table</TD>
+            <TD>GLIMPSE II Epoch 1 December &apos;08 Archive (&lt;a href=&apos;/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html&apos; target=&apos;doc&apos;&gt;more complete, less reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>148</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>glimpse2ep1c08</TD>
+            <TD>table</TD>
+            <TD>GLIMPSE II Epoch 1 December &apos;08 Catalog (&lt;a href=&apos;/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html&apos; target=&apos;doc&apos;&gt;highly reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>149</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>glimpse2ep2a09</TD>
+            <TD>table</TD>
+            <TD>GLIMPSE II Epoch 2 November &apos;09 Archive (&lt;a href=&apos;/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html&apos; target=&apos;doc&apos;&gt;more complete, less reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>150</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>glimpse2ep2mra09</TD>
+            <TD>table</TD>
+            <TD>GLIMPSE II Epoch 2 November &apos;09 More Reliable Archive (&lt;a href=&apos;/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html&apos; target=&apos;doc&apos;&gt;more reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>151</TD>
+          </TR>
+          <TR>
+            <TD>public</TD>
+            <TD>glimpse2sub</TD>
+            <TD>table</TD>
+            <TD>GLIMPSEII Subarray Source List</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>152</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sage_cat_irac_match</TD>
+            <TD>table</TD>
+            <TD>SAGE IRAC Matched Epoch Archive (&lt;a href=&apos;/data/SPITZER/SAGE/doc/SAGEIRACv3_descriptions.html#reliable&apos; target=&apos;doc&apos;&gt;more reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>290</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sage_cat_irac_off</TD>
+            <TD>table</TD>
+            <TD>SAGE IRAC Offset Position Epoch 1 and Epoch 2 Catalog (&lt;a href=&apos;/data/SPITZER/SAGE/doc/SAGEIRACv3_descriptions.html#reliable&apos; target=&apos;doc&apos;&gt;more reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>291</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sage_cat_m160</TD>
+            <TD>table</TD>
+            <TD>SAGE MIPS 160 um Combined Epoch Catalog (&lt;a href=&apos;/data/SPITZER/SAGE/doc/SAGEMIPSv3_descriptions.html#reliable&apos; target=&apos;doc&apos;&gt;more reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>292</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sage_cat_m24</TD>
+            <TD>table</TD>
+            <TD>SAGE MIPS 24 um Epoch 1 and Epoch 2 Catalog (&lt;a href=&apos;/data/SPITZER/SAGE/doc/SAGEMIPSv3_descriptions.html#reliable&apos; target=&apos;doc&apos;&gt;more reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>293</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sage_cat_m24_match</TD>
+            <TD>table</TD>
+            <TD>SAGE MIPS 24 um Matched Epoch Catalog (&lt;a href=&apos;/data/SPITZER/SAGE/doc/SAGEMIPSv3_descriptions.html#reliable&apos; target=&apos;doc&apos;&gt;more reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>294</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sage_cat_m70</TD>
+            <TD>table</TD>
+            <TD>SAGE MIPS 70 um Combined Epoch Catalog (&lt;a href=&apos;/data/SPITZER/SAGE/doc/SAGEMIPSv3_descriptions.html#reliable&apos; target=&apos;doc&apos;&gt;more reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>295</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sage_full_m160</TD>
+            <TD>table</TD>
+            <TD>SAGE MIPS 160 um Combined Epoch Catalog (&lt;a href=&apos;/data/SPITZER/SAGE/doc/SAGEMIPSv3_descriptions.html#reliable&apos; target=&apos;doc&apos;&gt;more complete, less reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>296</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sage_full_m24</TD>
+            <TD>table</TD>
+            <TD>SAGE MIPS 24 um Epoch 1 and Epoch 2 Full List (&lt;a href=&apos;/data/SPITZER/SAGE/doc/SAGEMIPSv3_descriptions.html#reliable&apos; target=&apos;doc&apos;&gt;more complete, less reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>297</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sage_full_m24_match</TD>
+            <TD>table</TD>
+            <TD>SAGE MIPS 24 um Matched Epoch Full List (&lt;a href=&apos;/data/SPITZER/SAGE/doc/SAGEMIPSv3_descriptions.html#reliable&apos; target=&apos;doc&apos;&gt;more complete, less reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>298</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sage_full_m70</TD>
+            <TD>table</TD>
+            <TD>SAGE MIPS 70 um Combined Epoch Full List (&lt;a href=&apos;/data/SPITZER/SAGE/doc/SAGEMIPSv3_descriptions.html#reliable&apos; target=&apos;doc&apos;&gt;more complete, less reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>299</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sagearciracv2</TD>
+            <TD>table</TD>
+            <TD>SAGE Winter &apos;08 IRAC Epoch 1 and Epoch 2 Archive (&lt;a href=&apos;/data/SPITZER/SAGE/doc/SAGEIRACv3_descriptions.html#reliable&apos; target=&apos;doc&apos;&gt;more complete, less reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>300</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sagecatiracv2</TD>
+            <TD>table</TD>
+            <TD>SAGE Winter &apos;08 IRAC Epoch 1 and Epoch 2 Catalog (&lt;a href=&apos;/data/SPITZER/SAGE/doc/SAGEIRACv3_descriptions.html#reliable&apos; target=&apos;doc&apos;&gt;more reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>301</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sagecatmips24v2</TD>
+            <TD>table</TD>
+            <TD>SAGE Winter &apos;08 MIPS 24 um Epoch 1 and Epoch 2 Catalog (&lt;a href=&apos;/data/SPITZER/SAGE/doc/SAGEMIPSv3_descriptions.html#reliable&apos; target=&apos;doc&apos;&gt;more reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>302</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sagefull</TD>
+            <TD>table</TD>
+            <TD>SAGE-Var LMC Full Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>303</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sagesmc_iraca</TD>
+            <TD>table</TD>
+            <TD>SAGE-SMC IRAC Epoch 0, Epoch 1, and Epoch 2 Archive (&lt;a href=&apos;/data/SPITZER/SAGE-SMC/gator_docs/SAGE-SMC_IRAC_colDescriptions.html&apos; target=&apos;doc&apos;&gt;less reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>304</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sagesmc_iracadr3</TD>
+            <TD>table</TD>
+            <TD>SAGE-SMC IRAC Single Frame + Mosaic Photometry Archive v1.5</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>305</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sagesmc_iracc</TD>
+            <TD>table</TD>
+            <TD>SAGE-SMC IRAC Epoch 0, Epoch 1, and Epoch 2 Catalog (&lt;a href=&apos;/data/SPITZER/SAGE-SMC/gator_docs/SAGE-SMC_IRAC_colDescriptions.html#reliable&apos; target=&apos;doc&apos;&gt;more reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>306</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sagesmc_iraccdr3</TD>
+            <TD>table</TD>
+            <TD>SAGE-SMC IRAC Single Frame + Mosaic Photometry Catalog v1.5</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>307</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sagesmc_iracep1a</TD>
+            <TD>table</TD>
+            <TD>SAGE-SMC IRAC Epoch 1 Archive (&lt;a href=&apos;/data/SPITZER/SAGE-SMC/gator_docs/SAGE-SMC_IRAC_colDescriptions.html&apos; target=&apos;doc&apos;&gt;less reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>308</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sagesmc_iracep1c</TD>
+            <TD>table</TD>
+            <TD>SAGE-SMC IRAC Epoch 1 Catalog (&lt;a href=&apos;/data/SPITZER/SAGE-SMC/gator_docs/SAGE-SMC_IRAC_colDescriptions.html#reliable&apos; target=&apos;doc&apos;&gt;more reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>309</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sagesmc_mips160c</TD>
+            <TD>table</TD>
+            <TD>SAGE-SMC MIPS 160um Combined Epoch Catalog (&lt;a href=&apos;/data/SPITZER/SAGE-SMC/gator_docs/SAGE-SMC_MIPS_colDescriptions.html#reliable&apos; target=&apos;doc&apos;&gt;more reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>310</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sagesmc_mips160f</TD>
+            <TD>table</TD>
+            <TD>SAGE-SMC MIPS 160um Combined Epoch Full List (&lt;a href=&apos;/data/SPITZER/SAGE/doc/SAGEMIPSv3_descriptions.html#reliable&apos; target=&apos;doc&apos;&gt;more complete, less reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>311</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sagesmc_mips24c</TD>
+            <TD>table</TD>
+            <TD>SAGE-SMC MIPS 24 um Epoch 0, Epoch 1, and Epoch 2 Catalog (&lt;a href=&apos;/data/SPITZER/SAGE-SMC/gator_docs/SAGE-SMC_MIPS_colDescriptions.html#reliable&apos; target=&apos;doc&apos;&gt;more reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>312</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sagesmc_mips24ep1c</TD>
+            <TD>table</TD>
+            <TD>SAGE-SMC MIPS 24um Epoch 1 Catalog (&lt;a href=&apos;/data/SPITZER/SAGE-SMC/gator_docs/SAGE-SMC_MIPS_colDescriptions.html#reliable&apos; target=&apos;doc&apos;&gt;more reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>313</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sagesmc_mips24ep1f</TD>
+            <TD>table</TD>
+            <TD>SAGE-SMC MIPS 24um Epoch 1 Full List (&lt;a href=&apos;/data/SPITZER/SAGE-SMC/gator_docs/SAGE-SMC_MIPS_colDescriptions.html&apos; target=&apos;doc&apos;&gt;less reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>314</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sagesmc_mips24f</TD>
+            <TD>table</TD>
+            <TD>SAGE-SMC MIPS 24 um Epoch 0, Epoch 1, and Epoch 2 Full List (&lt;a href=&apos;/data/SPITZER/SAGE/doc/SAGEMIPSv3_descriptions.html#reliable&apos; target=&apos;doc&apos;&gt;more complete, less reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>315</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sagesmc_mips70c</TD>
+            <TD>table</TD>
+            <TD>SAGE-SMC MIPS 70um Combined Epoch Catalog (&lt;a href=&apos;/data/SPITZER/SAGE-SMC/gator_docs/SAGE-SMC_MIPS_colDescriptions.html#reliable&apos; target=&apos;doc&apos;&gt;more reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>316</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sagesmc_mips70f</TD>
+            <TD>table</TD>
+            <TD>SAGE-SMC MIPS 70um Combined Epoch Full List (&lt;a href=&apos;/data/SPITZER/SAGE/doc/SAGEMIPSv3_descriptions.html#reliable&apos; target=&apos;doc&apos;&gt;more complete, less reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>317</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sagesmcfull</TD>
+            <TD>table</TD>
+            <TD>SAGE-Var SMC Full Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>318</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sagesmcvar</TD>
+            <TD>table</TD>
+            <TD>SAGE-Var SMC Variable Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>319</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sagevar</TD>
+            <TD>table</TD>
+            <TD>SAGE-Var LMC Variable Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>320</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sdwfs_lcurve</TD>
+            <TD>table</TD>
+            <TD>SDWFS Light Curve Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>321</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sdwfs_var</TD>
+            <TD>table</TD>
+            <TD>SDWFS Variability Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>322</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sepirac</TD>
+            <TD>table</TD>
+            <TD>SEP IRAC-based Multiwavelength Photometric Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>323</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sepm24</TD>
+            <TD>table</TD>
+            <TD>SEP MIPS 24 micron Point Source Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>324</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sepm70</TD>
+            <TD>table</TD>
+            <TD>SEP MIPS 70 micron Point Source Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>325</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>sepmext</TD>
+            <TD>table</TD>
+            <TD>SEP MIPS Extended Source Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>326</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>servscdfsi1</TD>
+            <TD>table</TD>
+            <TD>SERVS CDFS 3.6 micron Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>327</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>servscdfsi12</TD>
+            <TD>table</TD>
+            <TD>SERVS CDFS 2-band Catalog (highly reliable)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>328</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>servscdfsi2</TD>
+            <TD>table</TD>
+            <TD>SERVS CDFS 4.5 micron Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>329</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>servseni1</TD>
+            <TD>table</TD>
+            <TD>SERVS ELAIS N1 3.6 micron Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>330</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>servseni12</TD>
+            <TD>table</TD>
+            <TD>SERVS ELAIS N1 2-band Catalog (highly reliable)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>331</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>servseni2</TD>
+            <TD>table</TD>
+            <TD>SERVS ELAIS N1 4.5 micron Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>332</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>servsesi1</TD>
+            <TD>table</TD>
+            <TD>SERVS ELAIS S1 3.6 micron Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>333</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>servsesi12</TD>
+            <TD>table</TD>
+            <TD>SERVS ELAIS S1 2-band Catalog (highly reliable)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>334</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>servsesi2</TD>
+            <TD>table</TD>
+            <TD>SERVS ELAIS S1 4.5 micron Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>335</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>servslhi1</TD>
+            <TD>table</TD>
+            <TD>SERVS Lockman Hole 3.6 micron Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>336</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>servslhi12</TD>
+            <TD>table</TD>
+            <TD>SERVS Lockman Hole 2-band Catalog (highly reliable)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>337</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>servslhi2</TD>
+            <TD>table</TD>
+            <TD>SERVS Lockman Hole 4.5 micron Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>338</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>servsxmmi1</TD>
+            <TD>table</TD>
+            <TD>SERVS XMM-LSS 3.6 micron Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>339</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>servsxmmi12</TD>
+            <TD>table</TD>
+            <TD>SERVS XMM-LSS 2-band Catalog (highly reliable)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>340</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>servsxmmi2</TD>
+            <TD>table</TD>
+            <TD>SERVS XMM-LSS 4.5 micron Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>341</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>shelacomb</TD>
+            <TD>table</TD>
+            <TD>SHELA Combined Epoch IRAC Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>342</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>shelaep1</TD>
+            <TD>table</TD>
+            <TD>SHELA Epoch 1 IRAC Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>343</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>shelaep2</TD>
+            <TD>table</TD>
+            <TD>SHELA Epoch 2 IRAC Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>344</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>shelaep3</TD>
+            <TD>table</TD>
+            <TD>SHELA Epoch 3 IRAC Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>345</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>shelasdss</TD>
+            <TD>table</TD>
+            <TD>SHELA-SDSS Stripe 82 Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>346</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>spiesch1</TD>
+            <TD>table</TD>
+            <TD>SpIES 3.6 micron-only Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>347</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>spiesch12</TD>
+            <TD>table</TD>
+            <TD>SpIES Dual-band Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>348</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>spiesch2</TD>
+            <TD>table</TD>
+            <TD>SpIES 4.5 micron-only Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>349</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>spuds_irac</TD>
+            <TD>table</TD>
+            <TD>SpUDS IRAC Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>350</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>spuds_mips</TD>
+            <TD>table</TD>
+            <TD>SpUDS MIPS Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>351</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>ssdf1</TD>
+            <TD>table</TD>
+            <TD>SSDF IRAC Ch1 Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>352</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>ssdf2</TD>
+            <TD>table</TD>
+            <TD>SSDF IRAC Ch2 Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>353</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>ssid2</TD>
+            <TD>table</TD>
+            <TD>SAGE-Spec ID Search</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>354</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>velcara</TD>
+            <TD>table</TD>
+            <TD>Vela-Carina Archive (&lt;a href=&apos;/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html&apos; target=&apos;doc&apos;&gt;more complete, less reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>355</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>velcarc</TD>
+            <TD>table</TD>
+            <TD>Vela-Carina Catalog (&lt;a href=&apos;/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html&apos; target=&apos;doc&apos;&gt;highly reliable&lt;/a&gt;)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>356</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>ysoggd1215lc</TD>
+            <TD>table</TD>
+            <TD>YSOVAR GGD 12-15 Light Curve Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>357</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>ysoggd1215obj</TD>
+            <TD>table</TD>
+            <TD>YSOVAR GGD 12-15 Object Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>358</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>ysoi20050lc</TD>
+            <TD>table</TD>
+            <TD>YSOVAR IRAS 20050+2720 Light Curve Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>359</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>ysoi20050obj</TD>
+            <TD>table</TD>
+            <TD>YSOVAR IRAS 20050+2720 Object Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>360</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>ysol1688lc</TD>
+            <TD>table</TD>
+            <TD>YSOVAR L1688 Light Curve Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>361</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>ysol1688obj</TD>
+            <TD>table</TD>
+            <TD>YSOVAR L1688 Object Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>362</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>yson1333lc</TD>
+            <TD>table</TD>
+            <TD>YSOVAR NGC1333 Light Curve Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>363</TD>
+          </TR>
+          <TR>
+            <TD>spitzer</TD>
+            <TD>yson1333obj</TD>
+            <TD>table</TD>
+            <TD>YSOVAR NGC1333 Object Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>364</TD>
+          </TR>
+          <TR>
+            <TD>swire</TD>
+            <TD>chandra_160_cat_f05</TD>
+            <TD>table</TD>
+            <TD>SWIRE CDFS Region 160um Fall &apos;05 SWIRE Spitzer Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>365</TD>
+          </TR>
+          <TR>
+            <TD>swire</TD>
+            <TD>chandra_24_cat_f05</TD>
+            <TD>table</TD>
+            <TD>SWIRE CDFS Region 24um Fall &apos;05 Spitzer Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>366</TD>
+          </TR>
+          <TR>
+            <TD>swire</TD>
+            <TD>chandra_70_cat_f05</TD>
+            <TD>table</TD>
+            <TD>SWIRE CDFS Region 70um Fall &apos;05 Spitzer Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>367</TD>
+          </TR>
+          <TR>
+            <TD>swire</TD>
+            <TD>chandra_cat_f05</TD>
+            <TD>table</TD>
+            <TD>SWIRE CDFS Region Fall &apos;05  Spitzer Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>368</TD>
+          </TR>
+          <TR>
+            <TD>swire</TD>
+            <TD>elaisn1_160_cat_s05</TD>
+            <TD>table</TD>
+            <TD>SWIRE ELAIS N1 Region 160um Spring &apos;05 Spitzer Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>369</TD>
+          </TR>
+          <TR>
+            <TD>swire</TD>
+            <TD>elaisn1_24_cat_s05</TD>
+            <TD>table</TD>
+            <TD>SWIRE ELAIS N1 Region 24um Spring &apos;05 Spitzer Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>370</TD>
+          </TR>
+          <TR>
+            <TD>swire</TD>
+            <TD>elaisn1_70_cat_s05</TD>
+            <TD>table</TD>
+            <TD>SWIRE ELAIS N1 Region 70um Spring &apos;05 Spitzer Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>371</TD>
+          </TR>
+          <TR>
+            <TD>swire</TD>
+            <TD>elaisn1_cat_s05</TD>
+            <TD>table</TD>
+            <TD>SWIRE ELAIS N1 Region Spring &apos;05 Spitzer Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>372</TD>
+          </TR>
+          <TR>
+            <TD>swire</TD>
+            <TD>elaisn2_160_cat_s05</TD>
+            <TD>table</TD>
+            <TD>SWIRE ELAIS N2 Region 160um Spring &apos;05 Spitzer Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>373</TD>
+          </TR>
+          <TR>
+            <TD>swire</TD>
+            <TD>elaisn2_24_cat_s05</TD>
+            <TD>table</TD>
+            <TD>SWIRE ELAIS N2 Region 24um Spring &apos;05 Spitzer Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>374</TD>
+          </TR>
+          <TR>
+            <TD>swire</TD>
+            <TD>elaisn2_70_cat_s05</TD>
+            <TD>table</TD>
+            <TD>SWIRE ELAIS N2 Region 70um Spring &apos;05 Spitzer Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>375</TD>
+          </TR>
+          <TR>
+            <TD>swire</TD>
+            <TD>elaisn2_cat_s05</TD>
+            <TD>table</TD>
+            <TD>SWIRE ELAIS N2 Region Spring &apos;05 Spitzer Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>376</TD>
+          </TR>
+          <TR>
+            <TD>swire</TD>
+            <TD>elaiss1_160_cat_f05</TD>
+            <TD>table</TD>
+            <TD>SWIRE ELAIS S1 Region 160um Fall &apos;05 Spitzer Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>377</TD>
+          </TR>
+          <TR>
+            <TD>swire</TD>
+            <TD>elaiss1_24_cat_f05</TD>
+            <TD>table</TD>
+            <TD>SWIRE ELAIS S1 Region 24um Fall &apos;05 Spitzer Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>378</TD>
+          </TR>
+          <TR>
+            <TD>swire</TD>
+            <TD>elaiss1_70_cat_f05</TD>
+            <TD>table</TD>
+            <TD>SWIRE ELAIS S1 Region 70um Fall &apos;05 Spitzer Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>379</TD>
+          </TR>
+          <TR>
+            <TD>swire</TD>
+            <TD>elaiss1_cat_f05</TD>
+            <TD>table</TD>
+            <TD>SWIRE ELAIS S1 Region Fall &apos;05 SWIRE Spitzer Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>380</TD>
+          </TR>
+          <TR>
+            <TD>swire</TD>
+            <TD>lockman_160_cat_s05</TD>
+            <TD>table</TD>
+            <TD>SWIRE Lockman Region 160um Spring &apos;05 Spitzer Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>381</TD>
+          </TR>
+          <TR>
+            <TD>swire</TD>
+            <TD>lockman_24_cat_s05</TD>
+            <TD>table</TD>
+            <TD>SWIRE Lockman Region 24um Spring &apos;05 Spitzer Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>382</TD>
+          </TR>
+          <TR>
+            <TD>swire</TD>
+            <TD>lockman_70_cat_s05</TD>
+            <TD>table</TD>
+            <TD>SWIRE Lockman Region 70um Spring &apos;05 Spitzer Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>383</TD>
+          </TR>
+          <TR>
+            <TD>swire</TD>
+            <TD>lockman_cat_s05</TD>
+            <TD>table</TD>
+            <TD>SWIRE Lockman Region Spring &apos;05 SWIRE Spitzer Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>384</TD>
+          </TR>
+          <TR>
+            <TD>swire</TD>
+            <TD>xmm_160_cat_s05</TD>
+            <TD>table</TD>
+            <TD>SWIRE XMM_LSS Region 160um Spring &apos;05 Spitzer Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>385</TD>
+          </TR>
+          <TR>
+            <TD>swire</TD>
+            <TD>xmm_24_cat_s05</TD>
+            <TD>table</TD>
+            <TD>SWIRE XMM_LSS Region 24um Spring &apos;05 Spitzer Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>386</TD>
+          </TR>
+          <TR>
+            <TD>swire</TD>
+            <TD>xmm_70_cat_s05</TD>
+            <TD>table</TD>
+            <TD>SWIRE XMM_LSS Region 70um Spring &apos;05 Spitzer Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>387</TD>
+          </TR>
+          <TR>
+            <TD>swire</TD>
+            <TD>xmm_cat_s05</TD>
+            <TD>table</TD>
+            <TD>SWIRE XMM_LSS Region Spring &apos;05 Spitzer Catalog</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>388</TD>
+          </TR>
+          <TR>
+            <TD>tmassr</TD>
+            <TD>ext_src_cat1</TD>
+            <TD>table</TD>
+            <TD>2MASS First Incremental Release Extended Source Catalog (XSC)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>389</TD>
+          </TR>
+          <TR>
+            <TD>tmassr</TD>
+            <TD>exts_samp_cat</TD>
+            <TD>table</TD>
+            <TD>2MASS Sampler Extended Source Catalog (XSC)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>390</TD>
+          </TR>
+          <TR>
+            <TD>tmassr</TD>
+            <TD>pt_src_cat1</TD>
+            <TD>table</TD>
+            <TD>2MASS First Incremental Release Point Source Catalog (PSC)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>391</TD>
+          </TR>
+          <TR>
+            <TD>tmassr</TD>
+            <TD>pts_samp_cat</TD>
+            <TD>table</TD>
+            <TD>2MASS Sampler Point Source Catalog (PSC)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>392</TD>
+          </TR>
+          <TR>
+            <TD>tmassr</TD>
+            <TD>scan_dat</TD>
+            <TD>table</TD>
+            <TD>2MASS First Incremental Release Survey Scan Info</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>393</TD>
+          </TR>
+          <TR>
+            <TD>twomass</TD>
+            <TD>coadd_dat</TD>
+            <TD>table</TD>
+            <TD>2MASS Survey Atlas Image Info</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>394</TD>
+          </TR>
+          <TR>
+            <TD>twomass</TD>
+            <TD>coadd_dat_c</TD>
+            <TD>table</TD>
+            <TD>2MASS Calibration Atlas Image Info</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>395</TD>
+          </TR>
+          <TR>
+            <TD>twomass</TD>
+            <TD>deepcal_src</TD>
+            <TD>table</TD>
+            <TD>2MASS Combined Calibration Field Source Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>396</TD>
+          </TR>
+          <TR>
+            <TD>twomass</TD>
+            <TD>ext_src_c</TD>
+            <TD>table</TD>
+            <TD>2MASS Calibration Extended Source Working Database</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>397</TD>
+          </TR>
+          <TR>
+            <TD>twomass</TD>
+            <TD>ext_src_rej</TD>
+            <TD>table</TD>
+            <TD>2MASS Survey Extended Source Reject Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>398</TD>
+          </TR>
+          <TR>
+            <TD>twomass</TD>
+            <TD>pscan_dat</TD>
+            <TD>table</TD>
+            <TD>2MASS Survey Scan Info</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>399</TD>
+          </TR>
+          <TR>
+            <TD>twomass</TD>
+            <TD>pscan_dat_c</TD>
+            <TD>table</TD>
+            <TD>2MASS Calibration Scan Info</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>400</TD>
+          </TR>
+          <TR>
+            <TD>twomass</TD>
+            <TD>pt_src_c</TD>
+            <TD>table</TD>
+            <TD>2MASS Calibration Point Source Working Database</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>401</TD>
+          </TR>
+          <TR>
+            <TD>twomass</TD>
+            <TD>pt_src_rej</TD>
+            <TD>table</TD>
+            <TD>2MASS Survey Point Source Reject Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>402</TD>
+          </TR>
+          <TR>
+            <TD>usno</TD>
+            <TD>ucac4_sources</TD>
+            <TD>table</TD>
+            <TD>USNO CCD Astrograph Catalog (UCAC4)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>403</TD>
+          </TR>
+          <TR>
+            <TD>usno</TD>
+            <TD>urat1</TD>
+            <TD>table</TD>
+            <TD>The First USNO Robotic Astrometric Telescope Catalog (URAT1)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>404</TD>
+          </TR>
+          <TR>
+            <TD>usno</TD>
+            <TD>usno_b1</TD>
+            <TD>table</TD>
+            <TD>USNO-B1 (United States Naval Observatory B1.0 Catalog)</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>405</TD>
+          </TR>
+          <TR>
+            <TD>wax</TD>
+            <TD>cf_info</TD>
+            <TD>table</TD>
+            <TD>2MASS Calibration Merged Point Source Information Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>406</TD>
+          </TR>
+          <TR>
+            <TD>wax</TD>
+            <TD>cf_link</TD>
+            <TD>table</TD>
+            <TD>2MASS Calibration Merged Point Source Link Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>407</TD>
+          </TR>
+          <TR>
+            <TD>wax</TD>
+            <TD>ecf_info</TD>
+            <TD>table</TD>
+            <TD>2MASS Calibration Merged Extended Source Information Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>408</TD>
+          </TR>
+          <TR>
+            <TD>wax</TD>
+            <TD>ecf_link</TD>
+            <TD>table</TD>
+            <TD>2MASS Calibration Merged Extended Source Link Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>409</TD>
+          </TR>
+          <TR>
+            <TD>wax</TD>
+            <TD>escf_info</TD>
+            <TD>table</TD>
+            <TD>2MASS LMC/SMC Calibration Merged Extended Source Information Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>410</TD>
+          </TR>
+          <TR>
+            <TD>wax</TD>
+            <TD>escf_link</TD>
+            <TD>table</TD>
+            <TD>2MASS LMC/SMC Calibration Merged Extended Source Link Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>411</TD>
+          </TR>
+          <TR>
+            <TD>wax</TD>
+            <TD>esixxf_info</TD>
+            <TD>table</TD>
+            <TD>2MASS 6X w/LMC/SMC Merged Extended Source Information Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>412</TD>
+          </TR>
+          <TR>
+            <TD>wax</TD>
+            <TD>esixxf_link</TD>
+            <TD>table</TD>
+            <TD>2MASS 6X w/LMC/SMC Merged Extended Source Link Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>413</TD>
+          </TR>
+          <TR>
+            <TD>wax</TD>
+            <TD>ewsdbf_info</TD>
+            <TD>table</TD>
+            <TD>2MASS Survey Merged Extended Source Information Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>414</TD>
+          </TR>
+          <TR>
+            <TD>wax</TD>
+            <TD>ewsdbf_link</TD>
+            <TD>table</TD>
+            <TD>2MASS Survey Merged Extended Source Link Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>415</TD>
+          </TR>
+          <TR>
+            <TD>wax</TD>
+            <TD>scf_info</TD>
+            <TD>table</TD>
+            <TD>2MASS LMC/SMC Calibration Merged Point Source Information Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>416</TD>
+          </TR>
+          <TR>
+            <TD>wax</TD>
+            <TD>scf_link</TD>
+            <TD>table</TD>
+            <TD>2MASS LMC/SMC Calibration Merged Point Source Link Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>417</TD>
+          </TR>
+          <TR>
+            <TD>wax</TD>
+            <TD>sixxf_info</TD>
+            <TD>table</TD>
+            <TD>2MASS 6X w/LMC/SMC Merged Point Source Information Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>418</TD>
+          </TR>
+          <TR>
+            <TD>wax</TD>
+            <TD>sixxf_link</TD>
+            <TD>table</TD>
+            <TD>2MASS 6X w/LMC/SMC Merged Point Source Link Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>n</TD>
+            <TD>419</TD>
+          </TR>
+          <TR>
+            <TD>wax</TD>
+            <TD>wsdb_info</TD>
+            <TD>table</TD>
+            <TD>2MASS Survey Merged Point Source Information Table</TD>
+            <TD></TD>
+            <TD>ORACLE</TD>
+            <TD>y</TD>
+            <TD>420</TD>
+          </TR>
+        </TABLEDATA>
+      </DATA>
+    </TABLE>
+  </RESOURCE>
+</VOTABLE>
