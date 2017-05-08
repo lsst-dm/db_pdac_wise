@@ -1,4 +1,4 @@
-CREATE TABLE `allwise_rej` (
+CREATE TABLE `allwise_p3as_psd` (
 
     `designation`    CHAR(20)            NOT NULL,
     `ra`             DECIMAL(10,7)   DEFAULT NULL,
@@ -82,7 +82,6 @@ CREATE TABLE `allwise_rej` (
     `w3cc_map_str`   CHAR(9)         DEFAULT NULL,
     `w4cc_map`       INT             DEFAULT NULL,
     `w4cc_map_str`   CHAR(9)         DEFAULT NULL,
-    `use_src`        INT             DEFAULT NULL,
     `best_use_cntr`  INT             DEFAULT NULL,
     `ngrp`           SMALLINT        DEFAULT NULL,
     `w1flux`         FLOAT           DEFAULT NULL,

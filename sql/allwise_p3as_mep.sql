@@ -1,4 +1,4 @@
-CREATE TABLE `allwise_i3as_mep` (
+CREATE TABLE `allwise_p3as_mep` (
 
     `source_id_mf`  VARCHAR(28)         NOT NULL,  -- foreign key to the primary key of the allwise_cat table
     `ra`            DECIMAL(10,7)   DEFAULT NULL,

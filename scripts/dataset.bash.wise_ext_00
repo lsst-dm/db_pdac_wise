@@ -7,13 +7,14 @@
 #       the loading & configuration process completely
 #       independent of any pre-exiating databases.
 
-INPUT_OBJECT_TABLE="Reject"
+INPUT_OBJECT_TABLE=
 INPUT_FORCED_SOURCE_TABLE=
+INPUT_NONPART_TABLES=
 
 # Output database and tables
 
 OUTPUT_DB="wise_ext_00"
-OUTPUT_OBJECT_TABLE="allwise_rej"
+OUTPUT_OBJECT_TABLE="allwise_p3as_psr"
 OUTPUT_SOURCE_TABLE=
 OUTPUT_FORCED_SOURCE_TABLE=
 OUTPUT_NONPART_TABLES=

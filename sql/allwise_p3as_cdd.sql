@@ -1,4 +1,4 @@
-CREATE TABLE `allwise_p3as` (
+CREATE TABLE `allwise_p3as_cdd` (
 
     `coadd_id`          VARCHAR(20)     NOT     NULL,
     `date_proc`         VARCHAR(20)     DEFAULT NULL,

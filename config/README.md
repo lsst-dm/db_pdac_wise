@@ -12,12 +12,12 @@ Processing templates
       | sed 's/\$OUTPUT_DB/'${OUTPUT_DB}'/' \
       > common.cfg
       
-    cat css_allwise_cat.params.tmpl \
+    cat css_allwise_p3as_psd.params.tmpl \
       | sed 's/\$OUTPUT_DB/'${OUTPUT_DB}'/' \
       | sed 's/\$SQL_DIR/'$(echo $SQL_DIR | sed 's/\//\\\//g')'/' /
-      > css_allwise_cat.params
+      > css_allwise_p3as_psd.params
       
-    cat css_allwise_i3as_mep.params.tmpl \
+    cat css_allwise_p3as_mep.params.tmpl \
       |  sed 's/\$OUTPUT_DB/'${OUTPUT_DB}'/' \
       |  sed 's/\$SQL_DIR/'$(echo $SQL_DIR | sed 's/\//\\\//g')'/' \
-      > css_allwise_i3as_mep.params
+      > css_allwise_p3as_mep.params

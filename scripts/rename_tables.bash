@@ -34,25 +34,32 @@ source $SCRIPTS/env_base_stack.bash
 
 assert_master_or_worker
 
-for table in `echo "SELECT TABLE_NAME FROM information_schema.tables WHERE TABLE_NAME LIKE '${INPUT_OBJECT_TABLE}%' AND TABLE_SCHEMA='${OUTPUT_DB}'" | $mysql_cmd`; do
+#for table in `echo "SELECT TABLE_NAME FROM information_schema.tables WHERE TABLE_NAME LIKE '${INPUT_OBJECT_TABLE}%' AND TABLE_SCHEMA='${OUTPUT_DB}'" | $mysql_cmd`; do
+#
+#    new_table="${table/$INPUT_OBJECT_TABLE/$OUTPUT_OBJECT_TABLE}"
+#    sql="RENAME TABLE ${OUTPUT_DB}.${table} TO ${OUTPUT_DB}.${new_table}"
+#
+#    verbose $mysql_cmd -e "$sql"
+#    if [ -z "$(test_flag '-n|--dry-run')" ]; then
+#        $mysql_cmd -e "$sql"
+#    fi
+#done
 
-    new_table="${table/$INPUT_OBJECT_TABLE/$OUTPUT_OBJECT_TABLE}"
-    sql="RENAME TABLE ${OUTPUT_DB}.${table} TO ${OUTPUT_DB}.${new_table}"
+#for table in `echo "SELECT TABLE_NAME FROM information_schema.tables WHERE TABLE_NAME LIKE '${INPUT_FORCED_SOURCE_TABLE}%' AND TABLE_SCHEMA='${OUTPUT_DB}'" | $mysql_cmd`; do
+#
+#    new_table="${table/$INPUT_FORCED_SOURCE_TABLE/$OUTPUT_FORCED_SOURCE_TABLE}"
+#    sql="RENAME TABLE ${OUTPUT_DB}.${table} TO ${OUTPUT_DB}.${new_table}"
+#
+#    verbose $mysql_cmd -e "$sql"
+#    if [ -z "$(test_flag '-n|--dry-run')" ]; then
+#        $mysql_cmd -e "$sql"
+#    fi
+#done
 
-    verbose $mysql_cmd -e "$sql"
-    if [ -z "$(test_flag '-n|--dry-run')" ]; then
-        $mysql_cmd -e "$sql"
-    fi
-done
-
-for table in `echo "SELECT TABLE_NAME FROM information_schema.tables WHERE TABLE_NAME LIKE '${INPUT_FORCED_SOURCE_TABLE}%' AND TABLE_SCHEMA='${OUTPUT_DB}'" | $mysql_cmd`; do
-
-    new_table="${table/$INPUT_FORCED_SOURCE_TABLE/$OUTPUT_FORCED_SOURCE_TABLE}"
-    sql="RENAME TABLE ${OUTPUT_DB}.${table} TO ${OUTPUT_DB}.${new_table}"
-
-    verbose $mysql_cmd -e "$sql"
-    if [ -z "$(test_flag '-n|--dry-run')" ]; then
-        $mysql_cmd -e "$sql"
-    fi
-done
+#sql="RENAME TABLE ${OUTPUT_DB}.${INPUT_NONPART_TABLES} TO ${OUTPUT_DB}.${OUTPUT_NONPART_TABLES}"
+#
+#verbose $mysql_cmd -e "$sql"
+#if [ -z "$(test_flag '-n|--dry-run')" ]; then
+#    $mysql_cmd -e "$sql"
+#fi
 
