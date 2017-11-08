@@ -1,1 +1,1 @@
-dataset.bash.wise_2band_00
+dataset.bash.wise_4band_00

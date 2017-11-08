@@ -51,10 +51,10 @@ if __name__ == "__main__":
 
             words = line[:-1].split()
             if len(words) != 2:
-                print "error: input file has an unexpected format"
-                sys.exist(1)
+                print "error: input file has an unexpected formati at line: ",line
+                sys.exit(1)
 
-            colname = words[0]
+            colname = words[0].lower()
             dbtype  = words[1].upper()
 
             if dbtype in wholeType2TypeMap:

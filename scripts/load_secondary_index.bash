@@ -44,8 +44,12 @@ translate_template ${sql_dir}/create_secondary_index.sql.tmpl ${LOCAL_TMP_DIR}/c
 cat ${LOCAL_TMP_DIR}/create_secondary_index.sql | $mysql_cmd
 
 # Load TSV files harvested from the worker nodes into the table
+# unless instructed not to do so
 
-for f in `ls -1 | grep .tsv`; do
-  verbose "loading triplest from file: ${f}"
-  $mysql_cmd -e "LOAD DATA INFILE '$QSERV_DUMPS_DIR/$f' INTO TABLE ${output_index}" >& $LOCAL_LOG_DIR/load_${f}.log
-done
+if [ -z "$(test_flag '-n|--no-triplets-loading')" ]; then
+
+    for f in `ls -1 | grep .tsv`; do
+        verbose "loading triplest from file: ${f}"
+        $mysql_cmd -e "SET UNIQUE_CHECKS=0; LOAD DATA INFILE '$QSERV_DUMPS_DIR/$f' INTO TABLE ${output_index}" >& $LOCAL_LOG_DIR/load_${f}.log
+    done
+fi
